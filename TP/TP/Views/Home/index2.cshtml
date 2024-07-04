@@ -1,0 +1,27 @@
+﻿@using TP.Models
+@model CombinedModels
+
+@{
+    ViewBag.Title = "index2";
+}
+
+@Styles.Render("~/Content/css")
+@Scripts.Render("~/Content/css")
+
+<main>
+    <section class="row" aria-labelledby="aspnetTitle">
+        <h1 id="title">Testt...</h1>
+
+        <p>output view index 2</p>
+        <p>Nama Supplier dari combined model, ambil dari supplier</p>
+        @Html.TextBoxFor(s => s.supplier.Name)
+
+        <p>Order ID dari combined model, ambil dari order</p>
+        @Html.TextBoxFor(o => o.order.OrderID)
+
+
+
+    </section>
+
+
+</main>

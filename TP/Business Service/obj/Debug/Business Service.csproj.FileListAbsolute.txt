@@ -1,0 +1,2 @@
+C:\Users\Laptop\source\repos\TP\Business Service\obj\Debug\Business Service.csproj.AssemblyReference.cache
+C:\Users\Laptop\source\repos\TP\Business Service\obj\Debug\Business Service.csproj.CoreCompileInputs.cache

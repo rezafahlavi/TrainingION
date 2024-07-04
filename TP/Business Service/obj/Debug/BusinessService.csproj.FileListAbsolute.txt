@@ -1,0 +1,16 @@
+C:\Users\Laptop\source\repos\TP\Business Service\bin\Debug\Business Service.dll.config
+C:\Users\Laptop\source\repos\TP\Business Service\bin\Debug\Business Service.dll
+C:\Users\Laptop\source\repos\TP\Business Service\bin\Debug\Business Service.pdb
+C:\Users\Laptop\source\repos\TP\Business Service\bin\Debug\BusinessServiceFramework.dll
+C:\Users\Laptop\source\repos\TP\Business Service\bin\Debug\DomainModelFramework.dll
+C:\Users\Laptop\source\repos\TP\Business Service\bin\Debug\TrainingDomainModel.dll
+C:\Users\Laptop\source\repos\TP\Business Service\bin\Debug\EntityFramework.dll
+C:\Users\Laptop\source\repos\TP\Business Service\bin\Debug\TrainingDomainModel.pdb
+C:\Users\Laptop\source\repos\TP\Business Service\bin\Debug\TrainingDomainModel.dll.config
+C:\Users\Laptop\source\repos\TP\Business Service\bin\Debug\EntityFramework.xml
+C:\Users\Laptop\source\repos\TP\Business Service\bin\Debug\id\DomainModelFramework.resources.dll
+C:\Users\Laptop\source\repos\TP\Business Service\obj\Debug\BusinessService.csproj.AssemblyReference.cache
+C:\Users\Laptop\source\repos\TP\Business Service\obj\Debug\BusinessService.csproj.CoreCompileInputs.cache
+C:\Users\Laptop\source\repos\TP\Business Service\obj\Debug\Business.EF4CDBBF.Up2Date
+C:\Users\Laptop\source\repos\TP\Business Service\obj\Debug\Business Service.dll
+C:\Users\Laptop\source\repos\TP\Business Service\obj\Debug\Business Service.pdb
