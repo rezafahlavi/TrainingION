@@ -231,6 +231,14 @@
       </DesignerInfoPropertySet>
     </Options>
     <!-- Diagram content (shape and connector positions) -->
-    <Diagrams></Diagrams>
+    <Diagrams>
+      <Diagram DiagramId="800b7ae8fc784e8b9db4593d3d9484d9" Name="Diagram1" ZoomLevel="95">
+        <EntityTypeShape EntityType="TrainingModel.UserDetail" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrainingModel.User" Width="1.5" PointX="0.75" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TrainingModel.Product" Width="1.5" PointX="3" PointY="4.375" IsExpanded="true" />
+        <AssociationConnector Association="TrainingModel.FK_UserDetails_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="TrainingModel.FK_Products_Users" ManuallyRouted="false" />
+      </Diagram>
+    </Diagrams>
   </Designer>
 </edmx:Edmx>

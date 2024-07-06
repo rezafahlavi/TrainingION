@@ -33,7 +33,7 @@ namespace TP.Controllers
             service.Insert(user);
             service.Save();
 
-            //test komen
+            
             return View();
             //return View(service.Get());
         }
