@@ -27,15 +27,34 @@ namespace TP.Controllers
                 ModifiedDate = DateTime.Now
 
             };
-
             UserService service = new UserService();
             //service.Get();
             service.Insert(user);
             service.Save();
-
             
             return View();
             //return View(service.Get());
+        }
+        public ActionResult update()
+        {
+            UserService service = new UserService();
+            User user = service.GetBy(x => x.UserName == "Ezz").FirstOrDefault();
+            user.UserName = "Ezazaza";
+
+            service.Update(user);
+            service.Save();
+
+            return View();
+        }
+
+        public ActionResult delete()
+        {
+            UserService service = new UserService();
+            User user = service.GetBy(x => x.UserName == "Ezazaza").FirstOrDefault();
+            service.Delete(user);
+            service.Save();
+
+            return View();
         }
     }
 }

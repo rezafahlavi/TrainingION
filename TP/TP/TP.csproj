@@ -196,6 +196,8 @@
     <Content Include="Views\Shared\_layout_2.cshtml" />
     <Content Include="Views\Home\index2.cshtml" />
     <Content Include="Views\User\Index.cshtml" />
+    <Content Include="Views\User\update.cshtml" />
+    <Content Include="Views\User\delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
