@@ -1,0 +1,32 @@
+﻿@using TrainingDomainModel
+
+@model IEnumerable<User>
+
+
+@{
+    ViewBag.Title = "List";
+}
+
+<h2>UserDetail</h2>
+
+@using (Html.BeginForm("List", "User", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form", autocmpleted = "off" }))
+
+{
+    for (int i = 0; i < Model.Count(); i++)
+    {
+
+        User user = Model.ElementAt(i);
+
+        <table>
+            <tr>
+                <td>
+                    UserName :
+                </td>
+                <td>
+                    <input type="text" name="Model[@i].UserName" value="@user.UserName" />
+                </td>
+            </tr>
+        </table>
+    }
+     <input type="submit" value="Save" />
+}

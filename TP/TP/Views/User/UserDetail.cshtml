@@ -1,0 +1,36 @@
+﻿@using TrainingDomainModel
+
+@model User
+
+
+@{
+    ViewBag.Title = "UserDetail";
+}
+
+<h2>UserDetail</h2>
+
+@using (Html.BeginForm("UserDetail", "User", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form", autocmpleted = "off" }))
+
+{
+    @Html.HiddenFor(x => x.UserID)
+    @Html.HiddenFor(x => x.CreatedBy)
+    @Html.HiddenFor(x => x.CreatedDate)
+    @Html.HiddenFor(x => x.ModifiedBy)
+    @Html.HiddenFor(x => x.ModifiedDate)
+
+    <table>
+        <tr>
+            <td>
+                UserName :
+            </td>
+            <td>
+                @Html.TextAreaFor(x => x.UserName)
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="submit" value="Save" />
+            </td>
+        </tr>
+    </table>
+}

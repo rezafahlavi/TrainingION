@@ -198,6 +198,8 @@
     <Content Include="Views\User\Index.cshtml" />
     <Content Include="Views\User\update.cshtml" />
     <Content Include="Views\User\delete.cshtml" />
+    <Content Include="Views\User\UserDetail.cshtml" />
+    <Content Include="Views\User\List.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

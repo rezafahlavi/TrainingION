@@ -1,4 +1,5 @@
 ﻿using BusinessService;
+using Microsoft.Ajax.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -56,5 +57,45 @@ namespace TP.Controllers
 
             return View();
         }
+        public ActionResult UserDetail()
+        {
+            UserService service = new UserService();
+            User user = service.GetBy(x => x.UserID == 5).FirstOrDefault();
+
+            return View(user); 
+        }
+
+        [HttpPost]
+        public ActionResult UserDetail(User user) 
+        {
+            UserService service = new UserService();
+            service.Update(user);
+            service.Save();
+
+            return View(user);
+        }
+
+        public ActionResult List()
+        {
+            UserService service = new UserService();
+            IEnumerable<User> user = service.Get().AsEnumerable();
+
+            return View(user);
+        }
+        [HttpPost]
+        public ActionResult List(IEnumerable<User> model)
+            
+            
+        {
+            /*
+            for (int i = 0; i < model.Count(); i++) 
+            {
+                User user = model.ElementAt(i);
+            }
+            */
+            
+            return View(model);
+        }
+
     }
 }
