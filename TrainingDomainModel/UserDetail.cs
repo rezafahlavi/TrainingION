@@ -16,11 +16,7 @@ namespace TrainingDomainModel
     public partial class UserDetail : BaseEntity
     {
         public int UserID { get; set; }
-        [Required]
         public string FullName { get; set; }
-        [Required]
-        [Display(Name = "Phone")]
-        [StringLength(25)]
         public string Phone { get; set; }
         
         
