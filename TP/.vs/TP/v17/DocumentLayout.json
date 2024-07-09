@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\Laptop\\source\\repos\\TP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1A076C51-1981-49F0-9DF0-8050C95A9B5D}|TP\\TP.csproj|C:\\Users\\Laptop\\source\\repos\\TP\\tp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1A076C51-1981-49F0-9DF0-8050C95A9B5D}|TP\\TP.csproj|c:\\users\\laptop\\source\\repos\\tp\\tp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A076C51-1981-49F0-9DF0-8050C95A9B5D}|TP\\TP.csproj|solutionrelative:tp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A076C51-1981-49F0-9DF0-8050C95A9B5D}|TP\\TP.csproj|c:\\users\\laptop\\source\\repos\\tp\\tp\\views\\user\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{1A076C51-1981-49F0-9DF0-8050C95A9B5D}|TP\\TP.csproj|C:\\Users\\Laptop\\source\\repos\\TP\\tp\\views\\user\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1A076C51-1981-49F0-9DF0-8050C95A9B5D}|TP\\TP.csproj|solutionrelative:tp\\views\\user\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -15,7 +15,7 @@
       "RelativeMoniker": "D:0:0:{6E67487D-E45E-4E9E-B239-5A8B707EA5E5}|Business Service\\BusinessService.csproj|solutionrelative:business service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A076C51-1981-49F0-9DF0-8050C95A9B5D}|TP\\TP.csproj|c:\\users\\laptop\\source\\repos\\tp\\tp\\views\\user\\userdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{1A076C51-1981-49F0-9DF0-8050C95A9B5D}|TP\\TP.csproj|C:\\Users\\Laptop\\source\\repos\\TP\\tp\\views\\user\\userdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1A076C51-1981-49F0-9DF0-8050C95A9B5D}|TP\\TP.csproj|solutionrelative:tp\\views\\user\\userdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -25,7 +25,7 @@
       "AbsoluteMoniker": "D:0:0:{639B1E3B-3097-445E-B85E-6C596FDC18B6}|..\\TrainingDomainModel\\TrainingDomainModel.csproj|c:\\users\\laptop\\source\\repos\\trainingdomainmodel\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A076C51-1981-49F0-9DF0-8050C95A9B5D}|TP\\TP.csproj|c:\\users\\laptop\\source\\repos\\tp\\tp\\views\\user\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{1A076C51-1981-49F0-9DF0-8050C95A9B5D}|TP\\TP.csproj|C:\\Users\\Laptop\\source\\repos\\TP\\tp\\views\\user\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1A076C51-1981-49F0-9DF0-8050C95A9B5D}|TP\\TP.csproj|solutionrelative:tp\\views\\user\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -36,7 +36,7 @@
       "RelativeMoniker": "D:0:0:{1A076C51-1981-49F0-9DF0-8050C95A9B5D}|TP\\TP.csproj|solutionrelative:tp\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A076C51-1981-49F0-9DF0-8050C95A9B5D}|TP\\TP.csproj|c:\\users\\laptop\\source\\repos\\tp\\tp\\views\\user\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{1A076C51-1981-49F0-9DF0-8050C95A9B5D}|TP\\TP.csproj|C:\\Users\\Laptop\\source\\repos\\TP\\tp\\views\\user\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1A076C51-1981-49F0-9DF0-8050C95A9B5D}|TP\\TP.csproj|solutionrelative:tp\\views\\user\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -106,10 +106,9 @@
               "RelativeDocumentMoniker": "TP\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\Laptop\\source\\repos\\TP\\TP\\Controllers\\UserController.cs",
               "RelativeToolTip": "TP\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAE0AAAAAAAAAAAAxwFkAAAAOAAAA",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAqwE4AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-01T14:23:43.861Z",
-              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -135,8 +134,7 @@
               "RelativeToolTip": "TP\\Views\\User\\UserDetail.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-07T03:51:29.315Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-07T03:51:29.315Z"
             },
             {
               "$type": "Document",
@@ -148,8 +146,7 @@
               "RelativeToolTip": "..\\TrainingDomainModel\\TrainingModel.Context.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T03:45:17.125Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-07T03:45:17.125Z"
             },
             {
               "$type": "Document",
@@ -161,8 +158,7 @@
               "RelativeToolTip": "..\\TrainingDomainModel\\User.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAswA8AAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T03:11:22.494Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-07T03:11:22.494Z"
             },
             {
               "$type": "Document",
@@ -174,8 +170,7 @@
               "RelativeToolTip": "TP\\Views\\User\\delete.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-07T02:25:31.016Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-07T02:25:31.016Z"
             },
             {
               "$type": "Document",
@@ -187,8 +182,7 @@
               "RelativeToolTip": "Business Service\\UserService.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T13:50:28.8Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T13:50:28.8Z"
             },
             {
               "$type": "Document",
@@ -211,8 +205,7 @@
               "RelativeToolTip": "TP\\Views\\User\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-03T14:02:38.204Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T14:02:38.204Z"
             },
             {
               "$type": "Document",
@@ -224,8 +217,7 @@
               "RelativeToolTip": "TP\\Views\\User\\update.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-07T02:04:10.473Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-07T02:04:10.473Z"
             },
             {
               "$type": "Document",
@@ -237,8 +229,7 @@
               "RelativeToolTip": "..\\TrainingDomainModel\\App.Config",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-07-06T15:28:50.342Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T15:28:50.342Z"
             },
             {
               "$type": "Document",
@@ -263,8 +254,7 @@
               "RelativeToolTip": "..\\TrainingDomainModel\\DomainRepository.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAhwBIAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T10:52:40.368Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T10:52:40.368Z"
             },
             {
               "$type": "Document",
