@@ -90,7 +90,8 @@ namespace TP.Controllers
             for (int i = 0; i < model.Count(); i++) 
             {
                 User user = model.ElementAt(i);
-                User firstUser = service.GetByFirst(x => x.UserName == user.UserName);
+                User firstUser = service.GetByFirst(x => x.UserID == user.UserID);
+
                 firstUser.UserName = user.UserName;
                 service.Update(firstUser);
             }
