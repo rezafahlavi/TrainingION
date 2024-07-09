@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.Services;
 using System.Web.UI;
 using System.Xml.Linq;
 using TP.Models;
@@ -84,16 +85,20 @@ namespace TP.Controllers
         }
         [HttpPost]
         public ActionResult List(IEnumerable<User> model)
-            
-            
         {
-            /*
+            UserService service = new UserService();
             for (int i = 0; i < model.Count(); i++) 
             {
                 User user = model.ElementAt(i);
+                User firstUser = service.GetByFirst(x => x.UserID == user.UserID);
+
+                firstUser.UserName = user.UserName;
+                service.Update(firstUser);
             }
-            */
             
+            
+            service.Save();
+
             return View(model);
         }
 
