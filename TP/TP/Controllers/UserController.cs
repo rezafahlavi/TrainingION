@@ -15,7 +15,20 @@ namespace TP.Controllers
 {
     public class UserController : Controller
     {
-        
+
+        // code ToDo
+        public ActionResult Users()
+        {
+            UserService service = new UserService();
+            IEnumerable<User> users = service.Get().AsEnumerable();
+
+
+            return View(users);
+        }
+
+
+
+        // code Training
         public ActionResult Index()
         {
             User user = new User()
@@ -27,7 +40,6 @@ namespace TP.Controllers
                 CreatedDate = DateTime.Now,
                 ModifiedBy = 1,
                 ModifiedDate = DateTime.Now
-
             };
             UserService service = new UserService();
             //service.Get();
@@ -96,11 +108,12 @@ namespace TP.Controllers
                 service.Update(firstUser);
             }
             
-            
             service.Save();
 
             return View(model);
         }
+
+
 
     }
 }
