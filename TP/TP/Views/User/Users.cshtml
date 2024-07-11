@@ -17,16 +17,30 @@
         <th>CreatedDate</th>
         <th>ModifirdBy</th>
         <th>ModifiedDate</th>
-        <th>kosong</th>
+        <th></th>
     </tr>
-    <tr>
-        <td>test_1</td>
-        <td>test_2</td>
-        <td>test_3</td>
-        <td>test_4</td>
-        <td>test_5</td>
-        <td>test_6</td>
-        <td>test_7</td>
-    </tr>
+    
+    
+    
+        @for (int i = 0; i < Model.Count(); i++)
+        {
+            User user = Model.ElementAt(i);
+            <tr>
+                <td>@user.UserName</td>
+                <td>@user.IsActive</td>
+                <td>@user.IsVerified</td>
+                <td>@user.CreatedBy</td>
+                <td>@user.CreatedDate</td>
+                <td>@user.ModifiedBy</td>
+                <td>@user.ModifiedDate</td>
+                <td>
+                        <a href="/TP/">View </a> |
+                        <a href="/TP/">Edit </a> |
+                        <a href="/TP/">Delete </a>
+                    
+                </td>
+            </tr>
+        }
+    
 </table>
 
