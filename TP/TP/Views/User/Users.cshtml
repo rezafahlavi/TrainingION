@@ -8,6 +8,10 @@
 
 <h2>User List</h2>
 
+<p>
+    <button type="button" onclick="location.href='/TP/User/Detail'">Insert</button>
+</p>
+
 <table style="width:100%">
     <tr style="background-color: silver">
         <th>UserName</th>
@@ -18,26 +22,41 @@
         <th>ModifirdBy</th>
         <th>ModifiedDate</th>
         <th></th>
-    </tr>
-    
-    
+    </tr>    
     
         @for (int i = 0; i < Model.Count(); i++)
         {
             User user = Model.ElementAt(i);
             <tr>
                 <td>@user.UserName</td>
-                <td>@user.IsActive</td>
+
+                <td>
+                    @Html.HiddenFor(x => user.IsActive)
+                    @if (user.IsActive == "True") //jadi ToStringnya gimana?
+                    {
+                        <input type="checkbox" id="nonactive" />
+                        <input type="checkbox" id="active" checked />
+                    }
+                    else
+                    {
+                        <input type="checkbox" id="nonactive" checked />
+                        <input type="checkbox" id="active" />
+                    }
+
+
+
+
+                </td>
+                
                 <td>@user.IsVerified</td>
                 <td>@user.CreatedBy</td>
                 <td>@user.CreatedDate</td>
                 <td>@user.ModifiedBy</td>
                 <td>@user.ModifiedDate</td>
                 <td>
-                        <a href="/TP/">View </a> |
-                        <a href="/TP/">Edit </a> |
-                        <a href="/TP/">Delete </a>
-                    
+                        <a href="/TP/User/Detail">View </a> |
+                        <a href="/TP/User/Detail">Edit </a> |
+                        <a href="/TP/User/Detail">Delete </a>
                 </td>
             </tr>
         }

@@ -20,13 +20,18 @@ namespace TP.Controllers
         public ActionResult Users()
         {
             UserService service = new UserService();
-            IEnumerable<User> users = service.Get().AsEnumerable();
+            IEnumerable<User> user = service.Get().AsEnumerable();
 
-
-            return View(users);
+            return View(user);
         }
 
+        public ActionResult Detail() 
+        {
+            UserService service = new UserService();
+            IEnumerable<User> user = service.Get().AsEnumerable();
 
+            return View(user);
+        }
 
         // code Training
         public ActionResult Index()
