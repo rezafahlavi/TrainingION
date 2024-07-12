@@ -104,7 +104,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -121,28 +121,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Detail.cshtml",
-              "DocumentMoniker": "C:\\Users\\Laptop\\source\\repos\\TP\\TP\\Views\\User\\Detail.cshtml",
-              "RelativeDocumentMoniker": "TP\\Views\\User\\Detail.cshtml",
-              "ToolTip": "C:\\Users\\Laptop\\source\\repos\\TP\\TP\\Views\\User\\Detail.cshtml",
-              "RelativeToolTip": "TP\\Views\\User\\Detail.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-11T13:31:11.672Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Users.cshtml",
               "DocumentMoniker": "C:\\Users\\Laptop\\source\\repos\\TP\\TP\\Views\\User\\Users.cshtml",
               "RelativeDocumentMoniker": "TP\\Views\\User\\Users.cshtml",
               "ToolTip": "C:\\Users\\Laptop\\source\\repos\\TP\\TP\\Views\\User\\Users.cshtml",
               "RelativeToolTip": "TP\\Views\\User\\Users.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAXAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACIAAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-10T13:38:08.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\Laptop\\source\\repos\\TP\\TP\\Views\\User\\Detail.cshtml",
+              "RelativeDocumentMoniker": "TP\\Views\\User\\Detail.cshtml",
+              "ToolTip": "C:\\Users\\Laptop\\source\\repos\\TP\\TP\\Views\\User\\Detail.cshtml",
+              "RelativeToolTip": "TP\\Views\\User\\Detail.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAwAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-11T13:31:11.672Z",
               "EditorCaption": ""
             },
             {
