@@ -25,10 +25,13 @@ namespace TP.Controllers
             return View(user);
         }
 
-        public ActionResult Detail() 
+        [HttpGet]
+        public ActionResult Detail(int UserID) 
         {
+
             UserService service = new UserService();
-            IEnumerable<User> user = service.Get().AsEnumerable();
+            User user = service.GetBy(x => x.UserID == UserID).FirstOrDefault();
+
 
             return View(user);
         }
