@@ -1,16 +1,17 @@
 ﻿
 @using TrainingDomainModel;
 
-@model IEnumerable<User>
+@model User
 
 @{
     ViewBag.Title = "Detail";
 }
+//pake viewbag.mod (tambah di controller dan disini) kalo ada id dia view
 
 <div>
     <p>
         User ID <br />
-        01
+        @Model.UserID
     </p>
     <p>
         User Name <br />
