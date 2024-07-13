@@ -44,11 +44,11 @@
                     @Html.HiddenFor(x => user.IsVerified)
                     @if (user.IsVerified.ToString() == "True")
                     {
-                        <input type="checkbox" id="active" checked />
+                        <img id="check" src="~/Images/check.png" width="20px" height="20px" />
                     }
                     else
                     {
-                        <input type="checkbox" id="nonactive" />
+                        <img id="check" src="~/Images/uncheck.png" width="20px" height="20px" />
                     }
                 </td>
                 <td>@user.CreatedBy</td>
