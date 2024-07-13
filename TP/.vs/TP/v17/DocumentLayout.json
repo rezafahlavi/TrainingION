@@ -15,7 +15,7 @@
       "RelativeMoniker": "D:0:0:{1A076C51-1981-49F0-9DF0-8050C95A9B5D}|TP\\TP.csproj|solutionrelative:tp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A076C51-1981-49F0-9DF0-8050C95A9B5D}|TP\\TP.csproj|c:\\users\\laptop\\source\\repos\\tp\\tp\\views\\user\\userdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{1A076C51-1981-49F0-9DF0-8050C95A9B5D}|TP\\TP.csproj|C:\\Users\\Laptop\\source\\repos\\TP\\tp\\views\\user\\userdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1A076C51-1981-49F0-9DF0-8050C95A9B5D}|TP\\TP.csproj|solutionrelative:tp\\views\\user\\userdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -104,7 +104,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -114,22 +114,9 @@
               "RelativeDocumentMoniker": "TP\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\Laptop\\source\\repos\\TP\\TP\\Controllers\\UserController.cs",
               "RelativeToolTip": "TP\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB4AAABCAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAA3wB8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-01T14:23:43.861Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Users.cshtml",
-              "DocumentMoniker": "C:\\Users\\Laptop\\source\\repos\\TP\\TP\\Views\\User\\Users.cshtml",
-              "RelativeDocumentMoniker": "TP\\Views\\User\\Users.cshtml",
-              "ToolTip": "C:\\Users\\Laptop\\source\\repos\\TP\\TP\\Views\\User\\Users.cshtml",
-              "RelativeToolTip": "TP\\Views\\User\\Users.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACIAAABMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-10T13:38:08.407Z",
               "EditorCaption": ""
             },
             {
@@ -140,9 +127,22 @@
               "RelativeDocumentMoniker": "TP\\Views\\User\\Detail.cshtml",
               "ToolTip": "C:\\Users\\Laptop\\source\\repos\\TP\\TP\\Views\\User\\Detail.cshtml",
               "RelativeToolTip": "TP\\Views\\User\\Detail.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAwAAAAKAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-11T13:31:11.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Users.cshtml",
+              "DocumentMoniker": "C:\\Users\\Laptop\\source\\repos\\TP\\TP\\Views\\User\\Users.cshtml",
+              "RelativeDocumentMoniker": "TP\\Views\\User\\Users.cshtml",
+              "ToolTip": "C:\\Users\\Laptop\\source\\repos\\TP\\TP\\Views\\User\\Users.cshtml",
+              "RelativeToolTip": "TP\\Views\\User\\Users.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACIAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-10T13:38:08.407Z",
               "EditorCaption": ""
             },
             {
@@ -155,8 +155,7 @@
               "RelativeToolTip": "TP\\Views\\User\\UserDetail.cshtml",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABoAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-10T13:49:50.202Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-10T13:49:50.202Z"
             },
             {
               "$type": "Document",

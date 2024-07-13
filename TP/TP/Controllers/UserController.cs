@@ -28,10 +28,12 @@ namespace TP.Controllers
         [HttpGet]
         public ActionResult Detail(int UserID) 
         {
+            
 
             UserService service = new UserService();
             User user = service.GetBy(x => x.UserID == UserID).FirstOrDefault();
 
+            //ViewBag.Mode = "View";
 
             return View(user);
         }
