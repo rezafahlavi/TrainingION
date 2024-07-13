@@ -5,29 +5,58 @@
 
 @{
     ViewBag.Title = "Detail";
-    //var mode = ViewBag.Mode;
 
 }
 
 
 <div>
-    <p>
-        User ID <br />
-        @Model.UserID
-    </p>
-    <p>
-        User Name <br />
-        <input type="text" placeholder="Isi User Name">
-    </p>
-    <p>
-        Is Actived<br />
-        <input type="checkbox" />
-    </p>
-    <p>
-        Is Verifiedd<br />
-        <input type="checkbox" />
-    </p>
+    @if (Model != null)
+    {
+        //disini tambah form
 
+        <p>
+            User ID <br />
+            @Model.UserID
+        </p>
+        <p>
 
+            User Name <br />
+
+            @if (ViewBag.Mode == "Edit")
+            {
+                <input id="user" value="@Model.UserName" />
+            }
+            else
+            {
+                <input id="user" value="@Model.UserName" disabled/>
+            }
+            @*Versi code singkat (seperti if else diatas)*@
+            @*<input id="user" value="@Model.UserName" @(ViewBag.Mode == "Edit" ? "":"disabled")/>*@
+        </p>
+        <p>
+            Is Actived<br />
+            <input type="checkbox" checked="@Model.IsActive" @(ViewBag.Mode == "Edit" ? "":"disabled" )/>
+
+        </p>
+        <p>
+            Is Verifiedd<br />
+            <input type="checkbox" checked="@Model.IsVerified" @(ViewBag.Mode == "Edit" ? "":"disabled") />
+        </p>
+    }
+    else
+    {
+        <p>
+            User Name <br />
+            <input id="user" placeholder="User Name" />
+        </p>
+        <p>
+            Is Actived<br />
+            <input id="active" type="checkbox" />
+        </p>
+        <p>
+            Is Verifiedd<br />
+            <input id="verified" type="checkbox"/>
+        </p>
+    }
 </div>
 

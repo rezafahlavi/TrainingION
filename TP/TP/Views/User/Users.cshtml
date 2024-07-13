@@ -9,7 +9,7 @@
 <h2>User List</h2>
 
 <p>
-    <button type="button" onclick="location.href='/TP/User/Detail'">Insert</button>
+    <button type="button" onclick="location.href='/TP/User/Detail?UserID=0'">Insert</button>
 </p>
 
 <table style="width:100%">
@@ -19,27 +19,19 @@
         <th>IsVerified</th>
         <th>CreatedBy</th>
         <th>CreatedDate</th>
-        <th>ModifirdBy</th>
+        <th>ModifiedBy</th>
         <th>ModifiedDate</th>
         <th></th>
     </tr>    
-    
         @for (int i = 0; i < Model.Count(); i++)
         {
             User user = Model.ElementAt(i);
             <tr>
                 <td>@user.UserName</td>
                 <td>
-                    @Html.HiddenFor(x => user.IsActive)
-                    @if (user.IsActive.ToString() == "True") 
-                    {
-                        <input type="checkbox" id="active" checked />
-                    }
-                    else
-                    {
-                        <input type="checkbox" id="nonactive" />
-                    }
+                    <input type="checkbox" checked="@user.IsActive" disabled />
                 </td>
+
                 <td>
                     @Html.HiddenFor(x => user.IsVerified)
                     @if (user.IsVerified.ToString() == "True")
@@ -51,13 +43,14 @@
                         <img id="check" src="~/Images/uncheck.png" width="20px" height="20px" />
                     }
                 </td>
+
                 <td>@user.CreatedBy</td>
                 <td>@user.CreatedDate</td>
                 <td>@user.ModifiedBy</td>
                 <td>@user.ModifiedDate</td>
                 <td>
-                        <a href="/TP/User/Detail?UserID=@user.UserID">View </a> | 
-                        <a href="/TP/User/Detail">Edit </a> |
+                        <a href="/TP/User/View?UserID=@user.UserID">View </a> | 
+                        <a href="/TP/User/Detail?UserID=@user.UserID">Edit </a> |
                         <a href="/TP/User/Detail">Delete </a>
                 </td>
             </tr>
