@@ -9,7 +9,7 @@
 <h2>User List</h2>
 
 <p>
-    <button type="button" onclick="location.href='/TP/User/Detail?UserID=0'">Insert</button>
+    <button type="button" onclick="location.href = '/TP/User/Detail';">Insert</button>
 </p>
 
 <table style="width:100%">
@@ -51,7 +51,7 @@
                 <td>
                         <a href="/TP/User/View?UserID=@user.UserID">View </a> | 
                         <a href="/TP/User/Detail?UserID=@user.UserID">Edit </a> |
-                        <a href="/TP/User/Detail">Delete </a>
+                        <a href="/TP/User/Delete?UserID=@user.UserID">Delete </a>
                 </td>
             </tr>
         }
