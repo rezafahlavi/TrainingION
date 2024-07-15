@@ -1,31 +1,96 @@
-﻿
-@using TrainingDomainModel;
+﻿@using TrainingDomainModel;
 
 @model User
 
 @{
     ViewBag.Title = "Detail";
+
 }
-//pake viewbag.mod (tambah di controller dan disini) kalo ada id dia view
+
 
 <div>
-    <p>
-        User ID <br />
-        @Model.UserID
-    </p>
-    <p>
-        User Name <br />
-        <input type="text" placeholder="Isi User Name">
-    </p>
-    <p>
-        Is Actived<br />
-        <input type="checkbox" />
-    </p>
-    <p>
-        Is Verifiedd<br />
-        <input type="checkbox" />
-    </p>
+    @if (Model != null)
+    {
+        using (Html.BeginForm("Detail", "User", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form", autocmpleted = "off" }))
+        {
+            <p>
+                User ID <br />
+                @Model.UserID
+            </p>
+            <p>
+                User Name <br />
+                @if (ViewBag.Mode == "Edit")
+                {
+                    @Html.TextBoxFor(user => user.UserName)
+                }
+                else
+                {
+                    @Html.TextBoxFor(user => user.UserName, new { @disabled = "disabled" })
+                }
+                @*Versi code singkat (seperti if else diatas) sebagai berikut*@
+                @*<input id="user" value="@Model.UserName" @(ViewBag.Mode == "Edit" ? "":"disabled")/>*@
+            </p>
 
+            <p>
+                Is Actived<br />
 
+                @if (ViewBag.Mode == "Edit")
+                {
+                    @Html.CheckBoxFor(user => user.IsActive)
+                }
+                else
+                {
+                    @Html.CheckBoxFor(user => user.IsActive, new { @disabled = "disabled" })
+                }
+            </p>
+
+            <p>
+                Is Verifiedd<br />
+                @if (ViewBag.Mode == "Edit")
+                {
+                    @Html.CheckBoxFor(user => user.IsVerified)
+                }
+                else
+                {
+                    @Html.CheckBoxFor(user => user.IsVerified, new { @disabled = "disabled" })
+                }
+            </p>
+
+            @Html.HiddenFor(user => user.UserID)
+            @Html.HiddenFor(user => user.CreatedBy)
+            @Html.HiddenFor(user => user.CreatedDate)
+            @Html.HiddenFor(user => user.ModifiedBy)
+            @Html.HiddenFor(user => user.ModifiedDate)
+
+            <input type="submit" value="Save" @(ViewBag.Mode == "Edit" ? "" : "hidden") />
+        }
+
+        <input type="button" onclick="location.href='/TP/User/Users'" value="Back" @(ViewBag.Mode == "Edit" ? "hidden" : "") />
+    }
+    else
+    {
+        using (Html.BeginForm("Detail", "User", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form", autocmpleted = "off" }))
+        {
+            <p>
+                User Name <br />
+                @Html.TextBoxFor(user => user.UserName)
+            </p>
+            <p>
+                Is Actived<br />
+                @Html.CheckBoxFor(user => user.IsActive)
+            </p>
+            <p>
+                Is Verifiedd<br />
+                @Html.CheckBoxFor(user => user.IsVerified)
+            </p>
+
+            @Html.HiddenFor(user => user.CreatedBy)
+            @Html.HiddenFor(user => user.CreatedDate)
+            @Html.HiddenFor(user => user.ModifiedBy)
+            @Html.HiddenFor(user => user.ModifiedDate)
+            <input type="submit" value="Save" />
+        }
+
+    }
 </div>
 

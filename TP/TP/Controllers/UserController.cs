@@ -26,15 +26,56 @@ namespace TP.Controllers
         }
 
         [HttpGet]
-        public ActionResult Detail(int UserID) 
+        public ActionResult Detail(int ? UserID) 
         {
-
             UserService service = new UserService();
             User user = service.GetBy(x => x.UserID == UserID).FirstOrDefault();
-
+            ViewBag.Mode = "Edit";
 
             return View(user);
         }
+
+        [HttpGet]
+        public ActionResult View(int UserID)
+        {
+            UserService service = new UserService();
+            User user = service.GetBy(x => x.UserID == UserID).FirstOrDefault();
+
+            return View("Detail", user);
+        }
+
+        [HttpPost]
+        public ActionResult Detail(User user)
+        {
+            UserService service = new UserService();
+
+            if (user.UserID == 0)
+            {
+                service.Insert(user);
+                service.Save();
+            }
+            else
+            {
+                service.Update(user);
+                service.Save();
+            }
+            return RedirectToAction("Users", user);
+        }
+
+        [HttpGet]
+        public ActionResult Delete(int UserID)
+        {
+            UserService service = new UserService();
+            User user = service.GetBy(x => x.UserID == UserID).FirstOrDefault();
+            service.Delete(user);
+            service.Save();
+
+            return RedirectToAction("Users");
+        }
+
+
+
+
 
         // code Training
         public ActionResult Index()
@@ -69,7 +110,7 @@ namespace TP.Controllers
             return View();
         }
 
-        public ActionResult delete()
+        public ActionResult delete2()
         {
             UserService service = new UserService();
             User user = service.GetBy(x => x.UserName == "Ezazaza").FirstOrDefault();
@@ -94,6 +135,7 @@ namespace TP.Controllers
             service.Save();
 
             return View(user);
+
         }
 
         public ActionResult List()
