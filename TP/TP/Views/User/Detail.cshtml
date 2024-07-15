@@ -16,6 +16,7 @@
             <p>
                 User ID <br />
                 @Model.UserID
+
             </p>
             <p>
                 User Name <br />
@@ -30,7 +31,14 @@
                 @*Versi code singkat (seperti if else diatas) sebagai berikut*@
                 @*<input id="user" value="@Model.UserName" @(ViewBag.Mode == "Edit" ? "":"disabled")/>*@
             </p>
-
+            <p>
+                Full Name <br />
+                <input id="full" name="UserDetails.FullName" value="@Model.UserDetail.FullName" @(ViewBag.Mode == "Edit" ? "" : "disabled") />
+            </p>
+            <p>
+                Phone <br />
+                <input id="full" name="UserDetails.Phone" value="@Model.UserDetail.Phone" @(ViewBag.Mode == "Edit" ? "" : "disabled") />
+            </p>
             <p>
                 Is Actived<br />
 
