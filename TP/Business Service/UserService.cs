@@ -9,19 +9,30 @@ using TrainingDomainModel;
 namespace BusinessService
 {
 
-    public class UserService : BaseService <DomainRepository<User>,User>
+    public class UserService : BaseService <UserRepository,User>
     {
         public UserService() : base()
         { 
         
         }
 
-        public void InsertUser()
+        public void InsertUser(User user)
         {
-            var user = new User();
-
             this.Insert(user);
+            this.Repository.ManageUserDetail(user);
+            this.Save();
+        }
+        public void UpdateUser(User user)
+        {
             this.Update(user);
+            this.Repository.ManageUserDetail(user);
+            this.Save();
+        }
+        public void DeleteUser(User user)
+        {
+            this.Delete(user);
+            this.Repository.ManageUserDetail(user);
+            this.Save();
         }
     }
 }

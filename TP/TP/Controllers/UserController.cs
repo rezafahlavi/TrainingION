@@ -53,12 +53,13 @@ namespace TP.Controllers
 
             if (user.UserID == 0)
             {
-                service.Insert(user);
+                service.InsertUser(user);
                 service.Save();
             }
             else
             {
-                service.Update(user);
+                user.UserDetail.UserID = user.UserID;
+                service.UpdateUser(user);
                 service.Save();
             }
             return RedirectToAction("Users", user);
@@ -69,7 +70,7 @@ namespace TP.Controllers
         {
             UserService service = new UserService();
             User user = service.GetBy(x => x.UserID == UserID).FirstOrDefault();
-            service.Delete(user);
+            service.DeleteUser(user);
             service.Save();
 
             return RedirectToAction("Users");
