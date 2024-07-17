@@ -103,7 +103,7 @@
               "RelativeDocumentMoniker": "TP\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\Laptop\\source\\repos\\TP\\TP\\Controllers\\UserController.cs",
               "RelativeToolTip": "TP\\Controllers\\UserController.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAUwDsAAAAfAAAA",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAywDAAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-01T14:23:43.861Z",
               "IsPinned": true,
@@ -117,7 +117,7 @@
               "RelativeDocumentMoniker": "TP\\Views\\User\\Detail.cshtml",
               "ToolTip": "C:\\Users\\Laptop\\source\\repos\\TP\\TP\\Views\\User\\Detail.cshtml",
               "RelativeToolTip": "TP\\Views\\User\\Detail.cshtml",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAAAFUAAAAAAAAA",
+              "ViewState": "AQIAADYAAAAAAAAAAAAtwEIAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-11T13:31:11.672Z",
               "EditorCaption": ""
@@ -130,7 +130,7 @@
               "RelativeDocumentMoniker": "TP\\Views\\User\\Users.cshtml",
               "ToolTip": "C:\\Users\\Laptop\\source\\repos\\TP\\TP\\Views\\User\\Users.cshtml",
               "RelativeToolTip": "TP\\Views\\User\\Users.cshtml",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAAAsAAABDAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAsAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-10T13:38:08.407Z",
               "EditorCaption": ""
@@ -145,8 +145,7 @@
               "RelativeToolTip": "TP\\Views\\User\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-14T08:11:02.179Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-14T08:11:02.179Z"
             },
             {
               "$type": "Document",
@@ -158,8 +157,7 @@
               "RelativeToolTip": "TP\\Views\\User\\List.cshtml",
               "ViewState": "AQIAABIAAAAAAAAAAAAAAB4AAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-07T08:20:58.33Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-07T08:20:58.33Z"
             },
             {
               "$type": "Document",
@@ -171,8 +169,7 @@
               "RelativeToolTip": "TP\\Views\\User\\UserDetail.cshtml",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-10T13:49:50.202Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-10T13:49:50.202Z"
             },
             {
               "$type": "Document",
@@ -184,8 +181,7 @@
               "RelativeToolTip": "TP\\Views\\Home\\index2.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-28T13:35:25.106Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-28T13:35:25.106Z"
             },
             {
               "$type": "Document",

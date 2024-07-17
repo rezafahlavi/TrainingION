@@ -17,6 +17,8 @@
                 User ID <br />
                 @Model.UserID
 
+                <br />
+                @Model.UserDetail.FullName
             </p>
             <p>
                 User Name <br />
@@ -33,11 +35,11 @@
             </p>
             <p>
                 Full Name <br />
-                <input id="full" name="UserDetails.FullName" value="@Model.UserDetail.FullName" @(ViewBag.Mode == "Edit" ? "" : "disabled") />
+                <input id="full" name="UserDetail.FullName" value="@Model.UserDetail.FullName" @(ViewBag.Mode == "Edit" ? "" : "disabled") />
             </p>
             <p>
                 Phone <br />
-                <input id="full" name="UserDetails.Phone" value="@Model.UserDetail.Phone" @(ViewBag.Mode == "Edit" ? "" : "disabled") />
+                <input id="full" name="UserDetail.Phone" value="@Model.UserDetail.Phone" @(ViewBag.Mode == "Edit" ? "" : "disabled") />
             </p>
             <p>
                 Is Actived<br />
@@ -73,6 +75,28 @@
             <input type="submit" value="Save" @(ViewBag.Mode == "Edit" ? "" : "hidden") />
         }
 
+        @*if (ViewBag.mode == "edit")
+        {
+            <br />
+        }
+        else
+        {
+            <hr />
+            <table>
+                <tr>
+                    <th>product id</th>
+                    <th>product name</th>
+                    <th>qty</th>
+                </tr>
+                <tr>
+                    @for (int i = 0; i < model.count(); i++)
+                    {
+                    
+                    }
+                </tr>
+            </table>
+        }*@
+
         <input type="button" onclick="location.href='/TP/User/Users'" value="Back" @(ViewBag.Mode == "Edit" ? "hidden" : "") />
     }
     else
@@ -82,6 +106,14 @@
             <p>
                 User Name <br />
                 @Html.TextBoxFor(user => user.UserName)
+            </p>
+            <p>
+                Full Name<br />
+                @Html.TextBoxFor(user => user.UserDetail.FullName)
+            </p>
+            <p>
+                Phone <br />
+                @Html.TextBoxFor(user => user.UserDetail.Phone)
             </p>
             <p>
                 Is Actived<br />

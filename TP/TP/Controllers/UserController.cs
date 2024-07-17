@@ -31,6 +31,8 @@ namespace TP.Controllers
             UserService service = new UserService();
             User user = service.GetBy(x => x.UserID == UserID).FirstOrDefault();
             ViewBag.Mode = "Edit";
+            //IEnumerable<User> userdetail = service.Get().AsEnumerable(); GIMANA QUERI ke USERDETAIL??
+
 
             return View(user);
         }
