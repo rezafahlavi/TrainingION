@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\Laptop\\source\\repos\\TP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1A076C51-1981-49F0-9DF0-8050C95A9B5D}|TP\\TP.csproj|C:\\Users\\Laptop\\source\\repos\\TP\\tp\\views\\user\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1A076C51-1981-49F0-9DF0-8050C95A9B5D}|TP\\TP.csproj|solutionrelative:tp\\views\\user\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{639B1E3B-3097-445E-B85E-6C596FDC18B6}|..\\TrainingDomainModel\\TrainingDomainModel.csproj|c:\\users\\laptop\\source\\repos\\trainingdomainmodel\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{639B1E3B-3097-445E-B85E-6C596FDC18B6}|..\\TrainingDomainModel\\TrainingDomainModel.csproj|c:\\users\\laptop\\source\\repos\\trainingdomainmodel\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A076C51-1981-49F0-9DF0-8050C95A9B5D}|TP\\TP.csproj|c:\\users\\laptop\\source\\repos\\tp\\tp\\views\\user\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A076C51-1981-49F0-9DF0-8050C95A9B5D}|TP\\TP.csproj|solutionrelative:tp\\views\\user\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A076C51-1981-49F0-9DF0-8050C95A9B5D}|TP\\TP.csproj|C:\\Users\\Laptop\\source\\repos\\TP\\tp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -96,7 +96,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -109,12 +109,11 @@
               "ViewState": "AQIAABMAAAAAAAAAAAA3wCEAAABnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-01T14:23:43.861Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\Laptop\\source\\repos\\TrainingDomainModel\\UserRepository.cs",
               "RelativeDocumentMoniker": "..\\TrainingDomainModel\\UserRepository.cs",
@@ -127,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Detail.cshtml",
               "DocumentMoniker": "C:\\Users\\Laptop\\source\\repos\\TP\\TP\\Views\\User\\Detail.cshtml",
               "RelativeDocumentMoniker": "TP\\Views\\User\\Detail.cshtml",
@@ -184,8 +183,7 @@
               "RelativeToolTip": "..\\TrainingDomainModel\\TrainingModel.Context.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T03:45:17.125Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-07T03:45:17.125Z"
             },
             {
               "$type": "Document",
@@ -280,8 +278,7 @@
               "RelativeToolTip": "TP\\Web.config",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-07-05T13:45:03.812Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T13:45:03.812Z"
             },
             {
               "$type": "Document",
