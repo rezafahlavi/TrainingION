@@ -69,33 +69,34 @@
             @Html.HiddenFor(user => user.UserID)
             @Html.HiddenFor(user => user.CreatedBy)
             @Html.HiddenFor(user => user.CreatedDate)
-            @Html.HiddenFor(user => user.ModifiedBy)
-            @Html.HiddenFor(user => user.ModifiedDate)
+            @Html.HiddenFor(user => user.UserDetail.UserID)
+            @Html.HiddenFor(user => user.UserDetail.CreatedBy)
+            @Html.HiddenFor(user => user.UserDetail.CreatedDate)
 
             <input type="submit" value="Save" @(ViewBag.Mode == "Edit" ? "" : "hidden") />
         }
 
         @*if (ViewBag.mode == "edit")
-        {
-            <br />
-        }
-        else
-        {
-            <hr />
-            <table>
-                <tr>
-                    <th>product id</th>
-                    <th>product name</th>
-                    <th>qty</th>
-                </tr>
-                <tr>
-                    @for (int i = 0; i < model.count(); i++)
-                    {
-                    
-                    }
-                </tr>
-            </table>
-        }*@
+            {
+                <br />
+            }
+            else
+            {
+                <hr />
+                <table>
+                    <tr>
+                        <th>product id</th>
+                        <th>product name</th>
+                        <th>qty</th>
+                    </tr>
+                    <tr>
+                        @for (int i = 0; i < model.count(); i++)
+                        {
+
+                        }
+                    </tr>
+                </table>
+            }*@
 
         <input type="button" onclick="location.href='/TP/User/Users'" value="Back" @(ViewBag.Mode == "Edit" ? "hidden" : "") />
     }
@@ -123,11 +124,6 @@
                 Is Verifiedd<br />
                 @Html.CheckBoxFor(user => user.IsVerified)
             </p>
-
-            @Html.HiddenFor(user => user.CreatedBy)
-            @Html.HiddenFor(user => user.CreatedDate)
-            @Html.HiddenFor(user => user.ModifiedBy)
-            @Html.HiddenFor(user => user.ModifiedDate)
             <input type="submit" value="Save" />
         }
 
