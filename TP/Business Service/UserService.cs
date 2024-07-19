@@ -30,8 +30,8 @@ namespace BusinessService
         }
         public void DeleteUser(User user)
         {
-            this.Delete(user);
             this.Repository.DeleteUserDetail(user);
+            this.Delete(user);
             this.Save();
         }
     }
