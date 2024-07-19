@@ -54,6 +54,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="UserRepository.cs" />
     <Compile Include="DomainRepository.cs" />
     <Compile Include="Product.cs">
       <DependentUpon>TrainingModel.tt</DependentUpon>
