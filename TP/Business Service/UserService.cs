@@ -31,7 +31,7 @@ namespace BusinessService
         public void DeleteUser(User user)
         {
             this.Delete(user);
-            this.Repository.ManageUserDetail(user);
+            this.Repository.DeleteUserDetail(user);
             this.Save();
         }
     }
