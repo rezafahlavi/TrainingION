@@ -76,7 +76,7 @@
             <input type="submit" value="Save" @(ViewBag.Mode == "Edit" ? "" : "hidden") />
         }
 
-        @*if (ViewBag.mode == "edit")
+        if (ViewBag.mode == "edit")
             {
                 <br />
             }
@@ -89,14 +89,14 @@
                         <th>product name</th>
                         <th>qty</th>
                     </tr>
-                    <tr>
-                        @for (int i = 0; i < model.count(); i++)
+                    @*<tr>
+                        @for (int i = 0; i < Model.Products.Count(); i++)
                         {
 
                         }
-                    </tr>
+                    </tr>*@
                 </table>
-            }*@
+            }
 
         <input type="button" onclick="location.href='/TP/User/Users'" value="Back" @(ViewBag.Mode == "Edit" ? "hidden" : "") />
     }

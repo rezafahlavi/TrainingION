@@ -3,28 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\Laptop\\source\\repos\\TP\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6E67487D-E45E-4E9E-B239-5A8B707EA5E5}|Business Service\\BusinessService.csproj|c:\\users\\laptop\\source\\repos\\tp\\business service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E67487D-E45E-4E9E-B239-5A8B707EA5E5}|Business Service\\BusinessService.csproj|solutionrelative:business service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{639B1E3B-3097-445E-B85E-6C596FDC18B6}|..\\TrainingDomainModel\\TrainingDomainModel.csproj|c:\\users\\laptop\\source\\repos\\trainingdomainmodel\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A076C51-1981-49F0-9DF0-8050C95A9B5D}|TP\\TP.csproj|c:\\users\\laptop\\source\\repos\\tp\\tp\\views\\user\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1A076C51-1981-49F0-9DF0-8050C95A9B5D}|TP\\TP.csproj|solutionrelative:tp\\views\\user\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A076C51-1981-49F0-9DF0-8050C95A9B5D}|TP\\TP.csproj|C:\\Users\\Laptop\\source\\repos\\TP\\tp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A076C51-1981-49F0-9DF0-8050C95A9B5D}|TP\\TP.csproj|solutionrelative:tp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{639B1E3B-3097-445E-B85E-6C596FDC18B6}|..\\TrainingDomainModel\\TrainingDomainModel.csproj|c:\\users\\laptop\\source\\repos\\trainingdomainmodel\\trainingmodel.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A076C51-1981-49F0-9DF0-8050C95A9B5D}|TP\\TP.csproj|C:\\Users\\Laptop\\source\\repos\\TP\\tp\\views\\user\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1A076C51-1981-49F0-9DF0-8050C95A9B5D}|TP\\TP.csproj|solutionrelative:tp\\views\\user\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{639B1E3B-3097-445E-B85E-6C596FDC18B6}|..\\TrainingDomainModel\\TrainingDomainModel.csproj|c:\\users\\laptop\\source\\repos\\trainingdomainmodel\\domainrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1A076C51-1981-49F0-9DF0-8050C95A9B5D}|TP\\TP.csproj|C:\\Users\\Laptop\\source\\repos\\TP\\tp\\views\\user\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A076C51-1981-49F0-9DF0-8050C95A9B5D}|TP\\TP.csproj|solutionrelative:tp\\views\\user\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{639B1E3B-3097-445E-B85E-6C596FDC18B6}|..\\TrainingDomainModel\\TrainingDomainModel.csproj|c:\\users\\laptop\\source\\repos\\trainingdomainmodel\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{1A076C51-1981-49F0-9DF0-8050C95A9B5D}|TP\\TP.csproj|C:\\Users\\Laptop\\source\\repos\\TP\\tp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A076C51-1981-49F0-9DF0-8050C95A9B5D}|TP\\TP.csproj|solutionrelative:tp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A076C51-1981-49F0-9DF0-8050C95A9B5D}|TP\\TP.csproj|C:\\Users\\Laptop\\source\\repos\\TP\\tp\\views\\user\\userdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -47,15 +42,20 @@
       "RelativeMoniker": "D:0:0:{1A076C51-1981-49F0-9DF0-8050C95A9B5D}|TP\\TP.csproj|solutionrelative:tp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E67487D-E45E-4E9E-B239-5A8B707EA5E5}|Business Service\\BusinessService.csproj|C:\\Users\\Laptop\\source\\repos\\TP\\business service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E67487D-E45E-4E9E-B239-5A8B707EA5E5}|Business Service\\BusinessService.csproj|solutionrelative:business service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{639B1E3B-3097-445E-B85E-6C596FDC18B6}|..\\TrainingDomainModel\\TrainingDomainModel.csproj|c:\\users\\laptop\\source\\repos\\trainingdomainmodel\\trainingmodel.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{639B1E3B-3097-445E-B85E-6C596FDC18B6}|..\\TrainingDomainModel\\TrainingDomainModel.csproj|c:\\users\\laptop\\source\\repos\\trainingdomainmodel\\trainingmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{639B1E3B-3097-445E-B85E-6C596FDC18B6}|..\\TrainingDomainModel\\TrainingDomainModel.csproj|c:\\users\\laptop\\source\\repos\\trainingdomainmodel\\domainrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1A076C51-1981-49F0-9DF0-8050C95A9B5D}|TP\\TP.csproj|C:\\Users\\Laptop\\source\\repos\\TP\\tp\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{1A076C51-1981-49F0-9DF0-8050C95A9B5D}|TP\\TP.csproj|solutionrelative:tp\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{639B1E3B-3097-445E-B85E-6C596FDC18B6}|..\\TrainingDomainModel\\TrainingDomainModel.csproj|c:\\users\\laptop\\source\\repos\\trainingdomainmodel\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{639B1E3B-3097-445E-B85E-6C596FDC18B6}|..\\TrainingDomainModel\\TrainingDomainModel.csproj|c:\\users\\laptop\\source\\repos\\trainingdomainmodel\\trainingmodel.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
@@ -96,134 +96,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Laptop\\source\\repos\\TP\\TP\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "TP\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\Laptop\\source\\repos\\TP\\TP\\Controllers\\UserController.cs",
               "RelativeToolTip": "TP\\Controllers\\UserController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAA3wCEAAABnAAAA",
+              "ViewState": "AQIAADAAAAAAAAAAAADwvzgAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-01T14:23:43.861Z",
               "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\Laptop\\source\\repos\\TrainingDomainModel\\UserRepository.cs",
               "RelativeDocumentMoniker": "..\\TrainingDomainModel\\UserRepository.cs",
               "ToolTip": "C:\\Users\\Laptop\\source\\repos\\TrainingDomainModel\\UserRepository.cs",
               "RelativeToolTip": "..\\TrainingDomainModel\\UserRepository.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAkwA4AAAAQAAAA",
+              "ViewState": "AQIAAAgAAADg//////8gwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T14:34:34.629Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-19T10:56:10.189Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Detail.cshtml",
               "DocumentMoniker": "C:\\Users\\Laptop\\source\\repos\\TP\\TP\\Views\\User\\Detail.cshtml",
               "RelativeDocumentMoniker": "TP\\Views\\User\\Detail.cshtml",
               "ToolTip": "C:\\Users\\Laptop\\source\\repos\\TP\\TP\\Views\\User\\Detail.cshtml",
               "RelativeToolTip": "TP\\Views\\User\\Detail.cshtml",
-              "ViewState": "AQIAAEoAAAAAAAAAAAAAAE0AAAAAAAAA",
+              "ViewState": "AQIAADYAAAAAAAAAAAAtwEIAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-11T13:31:11.672Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-11T13:31:11.672Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Users.cshtml",
               "DocumentMoniker": "C:\\Users\\Laptop\\source\\repos\\TP\\TP\\Views\\User\\Users.cshtml",
               "RelativeDocumentMoniker": "TP\\Views\\User\\Users.cshtml",
               "ToolTip": "C:\\Users\\Laptop\\source\\repos\\TP\\TP\\Views\\User\\Users.cshtml",
               "RelativeToolTip": "TP\\Views\\User\\Users.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABkAAAAmAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAsAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-10T13:38:08.407Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DomainRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Laptop\\source\\repos\\TrainingDomainModel\\DomainRepository.cs",
-              "RelativeDocumentMoniker": "..\\TrainingDomainModel\\DomainRepository.cs",
-              "ToolTip": "C:\\Users\\Laptop\\source\\repos\\TrainingDomainModel\\DomainRepository.cs",
-              "RelativeToolTip": "..\\TrainingDomainModel\\DomainRepository.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T10:52:40.368Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Laptop\\source\\repos\\TP\\TP\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "TP\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Laptop\\source\\repos\\TP\\TP\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "TP\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T13:41:20.37Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TrainingModel.Context.cs",
-              "DocumentMoniker": "C:\\Users\\Laptop\\source\\repos\\TrainingDomainModel\\TrainingModel.Context.cs",
-              "RelativeDocumentMoniker": "..\\TrainingDomainModel\\TrainingModel.Context.cs",
-              "ToolTip": "C:\\Users\\Laptop\\source\\repos\\TrainingDomainModel\\TrainingModel.Context.cs",
-              "RelativeToolTip": "..\\TrainingDomainModel\\TrainingModel.Context.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T03:45:17.125Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "index2.cshtml",
-              "DocumentMoniker": "C:\\Users\\Laptop\\source\\repos\\TP\\TP\\Views\\Home\\index2.cshtml",
-              "RelativeDocumentMoniker": "TP\\Views\\Home\\index2.cshtml",
-              "ToolTip": "C:\\Users\\Laptop\\source\\repos\\TP\\TP\\Views\\Home\\index2.cshtml",
-              "RelativeToolTip": "TP\\Views\\Home\\index2.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-28T13:35:25.106Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "App.Config",
-              "DocumentMoniker": "C:\\Users\\Laptop\\source\\repos\\TrainingDomainModel\\App.Config",
-              "RelativeDocumentMoniker": "..\\TrainingDomainModel\\App.Config",
-              "ToolTip": "C:\\Users\\Laptop\\source\\repos\\TrainingDomainModel\\App.Config",
-              "RelativeToolTip": "..\\TrainingDomainModel\\App.Config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-07-06T15:28:50.342Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UserDetail.cshtml",
-              "DocumentMoniker": "C:\\Users\\Laptop\\source\\repos\\TP\\TP\\Views\\User\\UserDetail.cshtml",
-              "RelativeDocumentMoniker": "TP\\Views\\User\\UserDetail.cshtml",
-              "ToolTip": "C:\\Users\\Laptop\\source\\repos\\TP\\TP\\Views\\User\\UserDetail.cshtml",
-              "RelativeToolTip": "TP\\Views\\User\\UserDetail.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-10T13:49:50.202Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "List.cshtml",
               "DocumentMoniker": "C:\\Users\\Laptop\\source\\repos\\TP\\TP\\Views\\User\\List.cshtml",
               "RelativeDocumentMoniker": "TP\\Views\\User\\List.cshtml",
@@ -235,7 +161,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
+              "Title": "UserDetail.cshtml",
+              "DocumentMoniker": "C:\\Users\\Laptop\\source\\repos\\TP\\TP\\Views\\User\\UserDetail.cshtml",
+              "RelativeDocumentMoniker": "TP\\Views\\User\\UserDetail.cshtml",
+              "ToolTip": "C:\\Users\\Laptop\\source\\repos\\TP\\TP\\Views\\User\\UserDetail.cshtml",
+              "RelativeToolTip": "TP\\Views\\User\\UserDetail.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-10T13:49:50.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "index2.cshtml",
+              "DocumentMoniker": "C:\\Users\\Laptop\\source\\repos\\TP\\TP\\Views\\Home\\index2.cshtml",
+              "RelativeDocumentMoniker": "TP\\Views\\Home\\index2.cshtml",
+              "ToolTip": "C:\\Users\\Laptop\\source\\repos\\TP\\TP\\Views\\Home\\index2.cshtml",
+              "RelativeToolTip": "TP\\Views\\Home\\index2.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-28T13:35:25.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\source\\repos\\TP\\Business Service\\UserService.cs",
+              "RelativeDocumentMoniker": "Business Service\\UserService.cs",
+              "ToolTip": "C:\\Users\\Laptop\\source\\repos\\TP\\Business Service\\UserService.cs",
+              "RelativeToolTip": "Business Service\\UserService.cs",
+              "ViewState": "AQIAAA4AAAAAzMzMzMwmwCIAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T13:50:28.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Laptop\\source\\repos\\TP\\TP\\Views\\User\\Index.cshtml",
               "RelativeDocumentMoniker": "TP\\Views\\User\\Index.cshtml",
@@ -247,19 +210,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\Laptop\\source\\repos\\TP\\Business Service\\UserService.cs",
-              "RelativeDocumentMoniker": "Business Service\\UserService.cs",
-              "ToolTip": "C:\\Users\\Laptop\\source\\repos\\TP\\Business Service\\UserService.cs",
-              "RelativeToolTip": "Business Service\\UserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\source\\repos\\TP\\TP\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "TP\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Laptop\\source\\repos\\TP\\TP\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "TP\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T13:50:28.8Z"
+              "WhenOpened": "2024-06-26T13:41:20.37Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 10,
+              "Title": "TrainingModel.Context.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\source\\repos\\TrainingDomainModel\\TrainingModel.Context.cs",
+              "RelativeDocumentMoniker": "..\\TrainingDomainModel\\TrainingModel.Context.cs",
+              "ToolTip": "C:\\Users\\Laptop\\source\\repos\\TrainingDomainModel\\TrainingModel.Context.cs",
+              "RelativeToolTip": "..\\TrainingDomainModel\\TrainingModel.Context.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T03:45:17.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "TrainingModel.edmx [Diagram1]",
               "DocumentMoniker": "C:\\Users\\Laptop\\source\\repos\\TrainingDomainModel\\TrainingModel.edmx",
               "RelativeDocumentMoniker": "..\\TrainingDomainModel\\TrainingModel.edmx",
@@ -271,6 +246,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 14,
+              "Title": "App.Config",
+              "DocumentMoniker": "C:\\Users\\Laptop\\source\\repos\\TrainingDomainModel\\App.Config",
+              "RelativeDocumentMoniker": "..\\TrainingDomainModel\\App.Config",
+              "ToolTip": "C:\\Users\\Laptop\\source\\repos\\TrainingDomainModel\\App.Config",
+              "RelativeToolTip": "..\\TrainingDomainModel\\App.Config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-07-06T15:28:50.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\Users\\Laptop\\source\\repos\\TP\\TP\\Web.config",
               "RelativeDocumentMoniker": "TP\\Web.config",
@@ -278,7 +265,20 @@
               "RelativeToolTip": "TP\\Web.config",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-07-05T13:45:03.812Z"
+              "WhenOpened": "2024-07-05T13:45:03.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DomainRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Laptop\\source\\repos\\TrainingDomainModel\\DomainRepository.cs",
+              "RelativeDocumentMoniker": "..\\TrainingDomainModel\\DomainRepository.cs",
+              "ToolTip": "C:\\Users\\Laptop\\source\\repos\\TrainingDomainModel\\DomainRepository.cs",
+              "RelativeToolTip": "..\\TrainingDomainModel\\DomainRepository.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAhwBIAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T10:52:40.368Z"
             },
             {
               "$type": "Document",
