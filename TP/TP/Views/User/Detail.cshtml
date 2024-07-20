@@ -76,24 +76,23 @@
             <input type="submit" value="Save" @(ViewBag.Mode == "Edit" ? "" : "hidden") />
         }
 
-<<<<<<< HEAD
         if (ViewBag.mode == "Edit")
-=======
-        if (ViewBag.mode == "edit")
->>>>>>> 36f020c92585e85548661173df6a52bab3b2494b
             {
                 <br />
             }
             else
             {
-                <hr />
+                <h4>Related Products</h4>
                 <table style="width:100%">
-                    <tr>
+                    <tr style="background-color:silver">
                         <th>Product Id</th>
                         <th>Product Name</th>
                         <th>Qty</th>
+                        <th>CreatedBy</th>
+                        <th>CreatedDate</th>
+                        <th>ModifiedBy</th>
+                        <th>ModifiedDate</th>
                     </tr>
-<<<<<<< HEAD
 
                     @for (int i = 0; i < Model.Products.Count(); i++)
                     {
@@ -103,22 +102,17 @@
                             <td>@product.ProductID</td>
                             <td>@product.Name</td>
                             <td>@product.Qty</td>
+                            <td>@product.CreatedBy</td>
+                            <td>@product.CreatedDate</td>
+                            <td>@product.ModifiedBy</td>
+                            <td>@product.ModifiedDate</td>
                         </tr>
 
                     }
-
-
-=======
-                    @*<tr>
-                        @for (int i = 0; i < Model.Products.Count(); i++)
-                        {
-
-                        }
-                    </tr>*@
->>>>>>> 36f020c92585e85548661173df6a52bab3b2494b
                 </table>
             }
 
+        <br />
         <input type="button" onclick="location.href='/TP/User/Users'" value="Back" @(ViewBag.Mode == "Edit" ? "hidden" : "") />
     }
     else
@@ -147,7 +141,6 @@
             </p>
             <input type="submit" value="Save" />
         }
-
     }
 </div>
 
