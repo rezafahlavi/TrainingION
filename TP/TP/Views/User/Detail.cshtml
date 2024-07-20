@@ -76,7 +76,11 @@
             <input type="submit" value="Save" @(ViewBag.Mode == "Edit" ? "" : "hidden") />
         }
 
+<<<<<<< HEAD
         if (ViewBag.mode == "Edit")
+=======
+        if (ViewBag.mode == "edit")
+>>>>>>> 36f020c92585e85548661173df6a52bab3b2494b
             {
                 <br />
             }
@@ -89,6 +93,7 @@
                         <th>Product Name</th>
                         <th>Qty</th>
                     </tr>
+<<<<<<< HEAD
 
                     @for (int i = 0; i < Model.Products.Count(); i++)
                     {
@@ -103,6 +108,14 @@
                     }
 
 
+=======
+                    @*<tr>
+                        @for (int i = 0; i < Model.Products.Count(); i++)
+                        {
+
+                        }
+                    </tr>*@
+>>>>>>> 36f020c92585e85548661173df6a52bab3b2494b
                 </table>
             }
 
