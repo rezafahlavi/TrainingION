@@ -76,6 +76,13 @@ namespace TP.Controllers
             return RedirectToAction("Users");
         }
 
+        public ActionResult Products()
+        {
+            UserService service = new UserService();
+            IEnumerable<User> user = service.Get().AsEnumerable();
+            return View(); 
+        }
+
 
 
 
