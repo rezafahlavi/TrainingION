@@ -3,22 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\Laptop\\source\\repos\\TP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1A076C51-1981-49F0-9DF0-8050C95A9B5D}|TP\\TP.csproj|c:\\users\\laptop\\source\\repos\\tp\\tp\\views\\product\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1A076C51-1981-49F0-9DF0-8050C95A9B5D}|TP\\TP.csproj|solutionrelative:tp\\views\\product\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A076C51-1981-49F0-9DF0-8050C95A9B5D}|TP\\TP.csproj|c:\\users\\laptop\\source\\repos\\tp\\tp\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A076C51-1981-49F0-9DF0-8050C95A9B5D}|TP\\TP.csproj|solutionrelative:tp\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E67487D-E45E-4E9E-B239-5A8B707EA5E5}|Business Service\\BusinessService.csproj|c:\\users\\laptop\\source\\repos\\tp\\business service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6E67487D-E45E-4E9E-B239-5A8B707EA5E5}|Business Service\\BusinessService.csproj|C:\\Users\\Laptop\\source\\repos\\TP\\business service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E67487D-E45E-4E9E-B239-5A8B707EA5E5}|Business Service\\BusinessService.csproj|solutionrelative:business service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{639B1E3B-3097-445E-B85E-6C596FDC18B6}|..\\TrainingDomainModel\\TrainingDomainModel.csproj|c:\\users\\laptop\\source\\repos\\trainingdomainmodel\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1A076C51-1981-49F0-9DF0-8050C95A9B5D}|TP\\TP.csproj|c:\\users\\laptop\\source\\repos\\tp\\tp\\views\\user\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{1A076C51-1981-49F0-9DF0-8050C95A9B5D}|TP\\TP.csproj|c:\\users\\laptop\\source\\repos\\tp\\tp\\views\\product\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A076C51-1981-49F0-9DF0-8050C95A9B5D}|TP\\TP.csproj|solutionrelative:tp\\views\\product\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A076C51-1981-49F0-9DF0-8050C95A9B5D}|TP\\TP.csproj|C:\\Users\\Laptop\\source\\repos\\TP\\tp\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A076C51-1981-49F0-9DF0-8050C95A9B5D}|TP\\TP.csproj|solutionrelative:tp\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A076C51-1981-49F0-9DF0-8050C95A9B5D}|TP\\TP.csproj|C:\\Users\\Laptop\\source\\repos\\TP\\tp\\views\\user\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1A076C51-1981-49F0-9DF0-8050C95A9B5D}|TP\\TP.csproj|solutionrelative:tp\\views\\user\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -107,11 +107,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\Laptop\\source\\repos\\TP\\TP\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "TP\\Controllers\\ProductController.cs",
@@ -120,18 +120,17 @@
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-01T14:23:43.861Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\Users\\Laptop\\source\\repos\\TP\\Business Service\\ProductService.cs",
               "RelativeDocumentMoniker": "Business Service\\ProductService.cs",
               "ToolTip": "C:\\Users\\Laptop\\source\\repos\\TP\\Business Service\\ProductService.cs",
               "RelativeToolTip": "Business Service\\ProductService.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAAAxAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-21T13:51:03.755Z",
               "IsPinned": true,
@@ -139,7 +138,21 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "Products.cshtml",
+              "DocumentMoniker": "C:\\Users\\Laptop\\source\\repos\\TP\\TP\\Views\\Product\\Products.cshtml",
+              "RelativeDocumentMoniker": "TP\\Views\\Product\\Products.cshtml",
+              "ToolTip": "C:\\Users\\Laptop\\source\\repos\\TP\\TP\\Views\\Product\\Products.cshtml",
+              "RelativeToolTip": "TP\\Views\\Product\\Products.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-21T14:10:53.238Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\Laptop\\source\\repos\\TrainingDomainModel\\ProductRepository.cs",
               "RelativeDocumentMoniker": "..\\TrainingDomainModel\\ProductRepository.cs",
@@ -148,21 +161,6 @@
               "ViewState": "AQIAAAkAAAAAAAAAAAAiwBIAAAByAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-21T13:55:34.636Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Products.cshtml",
-              "DocumentMoniker": "C:\\Users\\Laptop\\source\\repos\\TP\\TP\\Views\\Product\\Products.cshtml",
-              "RelativeDocumentMoniker": "TP\\Views\\Product\\Products.cshtml",
-              "ToolTip": "C:\\Users\\Laptop\\source\\repos\\TP\\TP\\Views\\Product\\Products.cshtml",
-              "RelativeToolTip": "TP\\Views\\Product\\Products.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-21T14:10:53.238Z",
-              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -203,8 +201,7 @@
               "RelativeToolTip": "TP\\Views\\User\\List.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-07T08:20:58.33Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-07T08:20:58.33Z"
             },
             {
               "$type": "Document",
@@ -216,8 +213,7 @@
               "RelativeToolTip": "TP\\Views\\User\\Users.cshtml",
               "ViewState": "AQIAAC0AAAAAAAAAAAAAADsAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-10T13:38:08.407Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-10T13:38:08.407Z"
             },
             {
               "$type": "Document",
@@ -229,8 +225,7 @@
               "RelativeToolTip": "TP\\Views\\User\\Detail.cshtml",
               "ViewState": "AQIAAHUAAAAAAAAAAAAAAHsAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-11T13:31:11.672Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-11T13:31:11.672Z"
             },
             {
               "$type": "Document",
@@ -242,8 +237,7 @@
               "RelativeToolTip": "Business Service\\UserService.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAxwCAAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T13:50:28.8Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T13:50:28.8Z"
             },
             {
               "$type": "Document",
@@ -255,8 +249,7 @@
               "RelativeToolTip": "..\\TrainingDomainModel\\UserRepository.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T13:36:46.729Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-21T13:36:46.729Z"
             },
             {
               "$type": "Document",
@@ -268,8 +261,7 @@
               "RelativeToolTip": "..\\TrainingDomainModel\\Product.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-21T13:36:14.69Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-21T13:36:14.69Z"
             },
             {
               "$type": "Document",
@@ -352,8 +344,7 @@
               "ToolTip": "C:\\Users\\Laptop\\source\\repos\\TrainingDomainModel\\TrainingModel.edmx [Diagram1]",
               "RelativeToolTip": "..\\TrainingDomainModel\\TrainingModel.edmx [Diagram1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2024-07-06T15:19:45.442Z",
-              "EditorCaption": " [Diagram1]"
+              "WhenOpened": "2024-07-06T15:19:45.442Z"
             },
             {
               "$type": "Document",
@@ -365,8 +356,7 @@
               "RelativeToolTip": "..\\TrainingDomainModel\\App.Config",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-07-06T15:28:50.342Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-06T15:28:50.342Z"
             },
             {
               "$type": "Document",
