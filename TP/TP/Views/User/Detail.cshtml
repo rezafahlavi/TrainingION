@@ -76,28 +76,43 @@
             <input type="submit" value="Save" @(ViewBag.Mode == "Edit" ? "" : "hidden") />
         }
 
-        if (ViewBag.mode == "edit")
+        if (ViewBag.mode == "Edit")
             {
                 <br />
             }
             else
             {
-                <hr />
-                <table>
-                    <tr>
-                        <th>product id</th>
-                        <th>product name</th>
-                        <th>qty</th>
+                <h4>Related Products</h4>
+                <table style="width:100%">
+                    <tr style="background-color:silver">
+                        <th>Product Id</th>
+                        <th>Product Name</th>
+                        <th>Qty</th>
+                        <th>CreatedBy</th>
+                        <th>CreatedDate</th>
+                        <th>ModifiedBy</th>
+                        <th>ModifiedDate</th>
                     </tr>
-                    @*<tr>
-                        @for (int i = 0; i < Model.Products.Count(); i++)
-                        {
 
-                        }
-                    </tr>*@
+                    @for (int i = 0; i < Model.Products.Count(); i++)
+                    {
+
+                        Product product = Model.Products.ElementAt(i);
+                        <tr>
+                            <td>@product.ProductID</td>
+                            <td>@product.Name</td>
+                            <td>@product.Qty</td>
+                            <td>@product.CreatedBy</td>
+                            <td>@product.CreatedDate</td>
+                            <td>@product.ModifiedBy</td>
+                            <td>@product.ModifiedDate</td>
+                        </tr>
+
+                    }
                 </table>
             }
 
+        <br />
         <input type="button" onclick="location.href='/TP/User/Users'" value="Back" @(ViewBag.Mode == "Edit" ? "hidden" : "") />
     }
     else
@@ -126,7 +141,6 @@
             </p>
             <input type="submit" value="Save" />
         }
-
     }
 </div>
 
