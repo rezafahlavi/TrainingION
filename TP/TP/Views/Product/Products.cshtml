@@ -8,8 +8,10 @@
 
 <h2>Products</h2>
 <p>
-    Search Product by ID : 
-    @*@Html.TextBoxFor(product => product.ProductID)*@
+    Search Product by ID :
+    @Html.TextBoxFor(product => product.ProductID) //ini collection, gabisa kalo 1
+    <button>Search</button> //pake button submit
+    @*<a href="/TP/User/View?UserID=@product.UserID">View </a>*@
 </p>
 <table style="width:100%">
     <tr style="background-color: silver">
