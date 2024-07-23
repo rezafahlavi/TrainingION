@@ -24,11 +24,11 @@ namespace TP.Controllers
         }
 
         [HttpPost]
-        public ActionResult Products(int ? ProductID)
+        public ActionResult Products(int ? UserID)
         {
             ProductService service = new ProductService();
-            IEnumerable<Product> product = ProductID > 0 ?
-                service.GetBy(x => x.ProductID == ProductID).AsEnumerable():
+            IEnumerable<Product> product = UserID > 0 ?
+                service.GetBy(x => x.UserID == UserID).AsEnumerable():
                 service.Get().AsEnumerable(); 
             return View(product);
         }

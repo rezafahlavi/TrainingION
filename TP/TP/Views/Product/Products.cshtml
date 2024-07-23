@@ -12,8 +12,8 @@
 @using (Html.BeginForm("Products", "Product", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form", autocmpleted = "off" }))
 {
     <p>
-        Search Product by ProductID :
-        @Html.TextBox("ProductID", null)
+        Search Product by UserID :
+        @Html.TextBox("UserID", null)
         <input type="submit" value="Search" />
     </p>
        
@@ -46,9 +46,9 @@
         </table>
         <p>
             <br />
-            <a href="/TP/User/Users">User List</a>
+            <input type="submit" value="Save" />
         </p>
-        <input type="submit" value="Save" />
+        
    
 }
 
