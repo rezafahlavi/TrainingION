@@ -13,16 +13,10 @@
 {
     <p>
         Search Product by ProductID :
-        @Html.TextBox("id", null)
+        @Html.TextBox("ProductID", null)
+        <input type="submit" value="Search" />
     </p>
-
-    if ("id" != null)
-    {
-        <p>test null</p>
-        <input type="submit" value="Save" />
-    }
-    else
-    {
+       
         <table style="width:100%">
             <tr style="background-color: silver">
                 <th>ProductID</th>
@@ -55,7 +49,7 @@
             <a href="/TP/User/Users">User List</a>
         </p>
         <input type="submit" value="Save" />
-    }
+   
 }
 
 
