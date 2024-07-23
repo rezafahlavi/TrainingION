@@ -23,13 +23,13 @@ namespace TP.Controllers
             return View(product);
         }
 
-        [HttpGet]
-        public ActionResult Products(int ProductID)
-        { 
-        ProductService service = new ProductService();
-        Product product = service.GetBy(x => x.ProductID == ProductID).FirstOrDefault();
-        service.SearchProduct(product);
-        return View(product);
+        [HttpPost]
+        public ActionResult Products(int ? ProductID)
+        {
+            ProductService service = new ProductService();
+            Product product = service.GetBy(x => x.ProductID == ProductID).FirstOrDefault();
+            service.SearchProduct(product);
+            return View(product);
         }
     }
 }
