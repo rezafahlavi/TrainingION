@@ -27,8 +27,9 @@ namespace TP.Controllers
         public ActionResult Products(int ? ProductID)
         {
             ProductService service = new ProductService();
-            Product product = service.GetBy(x => x.ProductID == ProductID).FirstOrDefault();
-            service.SearchProduct(product);
+            IEnumerable<Product> product = ProductID > 0 ?
+                service.GetBy(x => x.ProductID == ProductID).AsEnumerable():
+                service.Get().AsEnumerable(); 
             return View(product);
         }
     }
