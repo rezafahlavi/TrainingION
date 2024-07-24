@@ -42,7 +42,7 @@
                 <input id="full" name="UserDetail.Phone" value="@Model.UserDetail.Phone" @(ViewBag.Mode == "Edit" ? "" : "disabled") />
             </p>
             <p>
-                Is Actived<br />
+                Is Active<br />
 
                 @if (ViewBag.Mode == "Edit")
                 {
@@ -55,7 +55,7 @@
             </p>
 
             <p>
-                Is Verifiedd<br />
+                Is Verified<br />
                 @if (ViewBag.Mode == "Edit")
                 {
                     @Html.CheckBoxFor(user => user.IsVerified)
@@ -137,7 +137,7 @@
                 @Html.CheckBoxFor(user => user.IsActive)
             </p>
             <p>
-                Is Verifiedd<br />
+                Is Verified<br />
                 @Html.CheckBoxFor(user => user.IsVerified)
             </p>
             <input type="submit" value="Save" />
