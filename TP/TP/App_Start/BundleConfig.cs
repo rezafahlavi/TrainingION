@@ -25,6 +25,10 @@ namespace TP
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+
+            bundles.Add(new Bundle("~/bundles/ajaxinsert").Include(
+                      "~/Scripts/common.js",
+                      "~/Scripts/insert.js"));
         }
     }
 }

@@ -83,7 +83,10 @@ namespace TP.Controllers
             return View(); 
         }
 
-
+        public ActionResult AjaxInsert()
+        {
+            return View();
+        }
 
 
 
