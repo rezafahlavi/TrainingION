@@ -7,5 +7,19 @@
 
 @Scripts.Render("~/bundles/ajaxinsert")
 
-<input id="btn-insert" type="button" value="Ajax Insert" class="btn-insert" />
+<script type="text/javascript">
+    var url = '@Url.Action("Save", "User")'
+
+</script>
+
+
+<input type="text" id="tb-name" />
+
+
+<input type="text" id="tb-phone" />
+
+
+<input id="btn-insert" type="button" value="Ajax Insert" class="loader" />
+
+<div id="div-result"></div>
 

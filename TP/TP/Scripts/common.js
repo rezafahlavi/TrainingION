@@ -117,7 +117,7 @@ var config = {
     '.chosen-select-width': { width: '100%' }
 }
 
-$(document).on("ready", function () {
+$(document).ready(function () {
     bindCustomClickEvent();
     bindCustomGetEvent();
     bindCustomPostEvent();
