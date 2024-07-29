@@ -6,6 +6,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Services;
+using System.Web.Services.Description;
 using System.Web.UI;
 using System.Xml.Linq;
 using TP.Models;
@@ -16,7 +17,7 @@ namespace TP.Controllers
     public class UserController : Controller
     {
 
-        // code ToDo
+        // code ToDo day 1 dan 2
         public ActionResult Users()
         {
             UserService service = new UserService();
@@ -85,10 +86,31 @@ namespace TP.Controllers
 
 
 
+        // code Training day 3
+
+        public ActionResult AjaxInsert()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public JsonResult Save(User user)
+         {
+            return Json(new {Status = "error", Message = user.UserName + " " + user.UserDetail.Phone});        
+        }
 
 
-        // code Training
-        public ActionResult Index()
+
+
+
+
+
+
+
+
+
+            // code Training day 1 dan 2
+            public ActionResult Index()
         {
             User user = new User()
             {

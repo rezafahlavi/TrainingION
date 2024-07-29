@@ -170,6 +170,8 @@
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
+    <Content Include="Scripts\common.js" />
+    <Content Include="Scripts\insert.js" />
     <Content Include="Scripts\jquery-3.7.0.js" />
     <Content Include="Scripts\jquery-3.7.0.min.js" />
     <Content Include="Scripts\jquery-3.7.0.slim.js" />
@@ -204,6 +206,7 @@
     <Content Include="Views\User\Users.cshtml" />
     <Content Include="Views\User\Detail.cshtml" />
     <Content Include="Views\Product\Products.cshtml" />
+    <Content Include="Views\User\AjaxInsert.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
