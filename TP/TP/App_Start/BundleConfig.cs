@@ -31,9 +31,9 @@ namespace TP
                       "~/Scripts/insert.js"));
 
             //ToDo Day 3
-            bundles.Add(new Bundle("~/bundles/ajaxi").Include(
+            bundles.Add(new Bundle("~/bundles/ajaxdetail").Include(
                       "~/Scripts/common.js",
-                      "~/Scripts/insert.js"));
+                      "~/Scripts/detail.js"));
         }
     }
 }
