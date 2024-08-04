@@ -12,7 +12,11 @@ function clickButton() {
     var data = { // ini ganti semua input di detail?
         UserName: $("#tb-name").val(),
         UserDetail: {
-            Phone: $("#tb-phone").val()
+            FullName: $("#tb-fullname").val(),
+        UserDetail: {
+            Phone: $("#tb-phone").val(),
+        IsActived: $("#tb-actived").val(),
+        IsVerified: $("#tb-verified").val(),
         }
     };
 
