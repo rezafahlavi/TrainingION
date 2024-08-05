@@ -32,7 +32,6 @@ namespace TP.Controllers
             UserService service = new UserService();
             User user = service.GetBy(x => x.UserID == UserID).FirstOrDefault();
             ViewBag.Mode = "Edit";
-            //IEnumerable<User> userdetail = service.Get().AsEnumerable(); GIMANA QUERI ke USERDETAIL??
 
 
             return View(user);
@@ -85,10 +84,103 @@ namespace TP.Controllers
         }
 
 
+        // code ToDo day 3
 
-        // code Training day 3
+        public ActionResult AjaxUsers()
+        {
+            UserService service = new UserService();
+            IEnumerable<User> user = service.Get().AsEnumerable();
 
-        public ActionResult AjaxInsert()
+            return View(user);
+        }
+
+        //[HttpPost]
+        //public JsonResult AjaxUsers(User user)
+        //{
+        //    return Json(new { Status = "error", Message = user.UserName + " " + user.UserDetail.Phone });
+        //}
+
+
+
+
+        [HttpGet]
+        public ActionResult AjaxDetail(int? UserID)
+        {
+            UserService service = new UserService();
+            User user = service.GetBy(x => x.UserID == UserID).FirstOrDefault();
+            ViewBag.Mode = "Edit";
+
+
+            return View(user);
+        }
+
+        [HttpGet]
+        public ActionResult AjaxView(int UserID)
+        {
+            UserService service = new UserService();
+            User user = service.GetBy(x => x.UserID == UserID).FirstOrDefault();
+
+            return View("AjaxDetail", user);
+        }
+
+        [HttpPost]
+        //public JsonResult AjaxDetailSave(User user)
+        //{
+        //    UserService service = new UserService();
+        //    return Json(new { Status = "error", Message = user.UserName + " " + user.UserDetail.Phone });
+        //    service.InsertUser(user);
+        //    service.Save();
+        //}
+
+        public ActionResult AjaxDetail(User user)
+        {
+            UserService service = new UserService();
+
+            if (user.UserID == 0)
+            {
+                service.InsertUser(user);
+                service.Save();
+            }
+            else
+            {
+                user.UserDetail.UserID = user.UserID;
+                service.UpdateUser(user);
+                service.Save();
+            }
+            return RedirectToAction("AjaxUsers", user);
+        }
+
+        [HttpGet]
+        public ActionResult AjaxDelete(int UserID)
+        {
+            UserService service = new UserService();
+            User user = service.GetBy(x => x.UserID == UserID).FirstOrDefault();
+            service.DeleteUser(user);
+            service.Save();
+
+            return RedirectToAction("Users");
+        }
+
+        public ActionResult AjaxProducts()
+        {
+            UserService service = new UserService();
+            IEnumerable<User> user = service.Get().AsEnumerable();
+            return View();
+        }
+
+
+
+
+
+
+
+
+
+
+
+            // code Training day 3
+
+            public ActionResult AjaxInsert()
         {
             return View();
         }
@@ -98,14 +190,6 @@ namespace TP.Controllers
          {
             return Json(new {Status = "error", Message = user.UserName + " " + user.UserDetail.Phone});        
         }
-
-
-
-
-
-
-
-
 
 
 

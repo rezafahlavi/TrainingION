@@ -1,0 +1,62 @@
+﻿@using TrainingDomainModel;
+
+@model IEnumerable<User>
+
+@{
+    ViewBag.Title = "Ajax User List";
+}
+
+<h2>User List</h2>
+
+<p>
+    <button type="button" onclick="location.href = '/TP/User/AjaxDetail';">Insert</button>
+</p>
+
+<table style="width:100%">
+    <tr style="background-color: silver">
+        <th>UserName</th>
+        <th>IsActive</th>
+        <th>IsVerified</th>
+        <th>CreatedBy</th>
+        <th>CreatedDate</th>
+        <th>ModifiedBy</th>
+        <th>ModifiedDate</th>
+        <th></th>
+    </tr>    
+        @for (int i = 0; i < Model.Count(); i++)
+        {
+            User user = Model.ElementAt(i);
+            <tr>
+                <td>@user.UserName</td>
+                <td>
+                    <input type="checkbox" checked="@user.IsActive" disabled />
+                </td>
+
+                <td>
+                    @Html.HiddenFor(x => user.IsVerified)
+                    @if (user.IsVerified.ToString() == "True")
+                    {
+                        <img id="check" src="~/Images/check.png" width="20px" height="20px" />
+                    }
+                    else
+                    {
+                        <img id="check" src="~/Images/uncheck.png" width="20px" height="20px" />
+                    }
+                </td>
+
+                <td>@user.CreatedBy</td>
+                <td>@user.CreatedDate</td>
+                <td>@user.ModifiedBy</td>
+                <td>@user.ModifiedDate</td>
+                <td>
+                        <a href="/TP/User/AjaxView?UserID=@user.UserID">View </a> | 
+                        <a href="/TP/User/AjaxDetail?UserID=@user.UserID">Edit </a> |
+                        <a href="/TP/User/AjaxDelete?UserID=@user.UserID">Delete </a>
+                </td>
+            </tr>
+        }
+</table>
+
+
+
+
