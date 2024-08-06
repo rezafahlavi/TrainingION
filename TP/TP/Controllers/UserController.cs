@@ -94,14 +94,6 @@ namespace TP.Controllers
             return View(user);
         }
 
-        //[HttpPost]
-        //public JsonResult AjaxUsers(User user)
-        //{
-        //    return Json(new { Status = "error", Message = user.UserName + " " + user.UserDetail.Phone });
-        //}
-
-
-
 
         [HttpGet]
         public ActionResult AjaxDetail(int? UserID)
@@ -109,7 +101,6 @@ namespace TP.Controllers
             UserService service = new UserService();
             User user = service.GetBy(x => x.UserID == UserID).FirstOrDefault();
             ViewBag.Mode = "Edit";
-
 
             return View(user);
         }
@@ -127,29 +118,20 @@ namespace TP.Controllers
         public JsonResult AjaxDetailSave(User user)
         {
             UserService service = new UserService();
-            service.InsertUser(user);
-            service.Save();
+            if (user.UserID == 0)
+            {
+                service.InsertUser(user);
+                service.Save();
+            }
+            else {
+                user.UserDetail.UserID = user.UserID;
+                service.UpdateUser(user);
+                service.Save();
+            }
 
             return Json(new { Status = "error", Message = user.UserName + " " + user.UserDetail.Phone });
         }
 
-        //public ActionResult AjaxDetail(User user)
-        //{
-        //    UserService service = new UserService();
-
-        //    if (user.UserID == 0)
-        //    {
-        //        service.InsertUser(user);
-        //        service.Save();
-        //    }
-        //    else
-        //    {
-        //        user.UserDetail.UserID = user.UserID;
-        //        service.UpdateUser(user);
-        //        service.Save();
-        //    }
-        //    return RedirectToAction("AjaxUsers", user);
-        //}
 
         [HttpGet]
         public ActionResult AjaxDelete(int UserID)
