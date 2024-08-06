@@ -124,31 +124,32 @@ namespace TP.Controllers
         }
 
         [HttpPost]
-        //public JsonResult AjaxDetailSave(User user)
-        //{
-        //    UserService service = new UserService();
-        //    return Json(new { Status = "error", Message = user.UserName + " " + user.UserDetail.Phone });
-        //    service.InsertUser(user);
-        //    service.Save();
-        //}
-
-        public ActionResult AjaxDetail(User user)
+        public JsonResult AjaxDetailSave(User user)
         {
             UserService service = new UserService();
+            service.InsertUser(user);
+            service.Save();
 
-            if (user.UserID == 0)
-            {
-                service.InsertUser(user);
-                service.Save();
-            }
-            else
-            {
-                user.UserDetail.UserID = user.UserID;
-                service.UpdateUser(user);
-                service.Save();
-            }
-            return RedirectToAction("AjaxUsers", user);
+            return Json(new { Status = "error", Message = user.UserName + " " + user.UserDetail.Phone });
         }
+
+        //public ActionResult AjaxDetail(User user)
+        //{
+        //    UserService service = new UserService();
+
+        //    if (user.UserID == 0)
+        //    {
+        //        service.InsertUser(user);
+        //        service.Save();
+        //    }
+        //    else
+        //    {
+        //        user.UserDetail.UserID = user.UserID;
+        //        service.UpdateUser(user);
+        //        service.Save();
+        //    }
+        //    return RedirectToAction("AjaxUsers", user);
+        //}
 
         [HttpGet]
         public ActionResult AjaxDelete(int UserID)

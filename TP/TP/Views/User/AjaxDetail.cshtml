@@ -124,10 +124,8 @@
         var url = '@Url.Action("AjaxDetailSave", "User")'
 
         </script>
-        //using (Html.BeginForm("AjaxDetail", "User", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form", autocmpleted = "off" }))
-        //{
 
-        // cara isi ID nya di razor ini gimana?
+        
         <p> 
             User Name <br />
             @Html.TextBoxFor(user => user.UserName)
@@ -150,7 +148,7 @@
         </p>
         <input id="btn-insert" type="button" value="Save" class="loader" />
         <button type="button" onclick="location.href = '/TP/User/AjaxUsers';">Back</button>
-        //}
+       
     }
 </div>
 
