@@ -13,71 +13,77 @@
 <div>
     @if (Model != null) // Ini Edit dan View
     {
-        using (Html.BeginForm("AjaxDetail", "User", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form", autocmpleted = "off" }))
+        <p>
+            User ID <br />
+            @Model.UserID
+
+            <br />
+            @Model.UserDetail.FullName
+        </p>
+        <p>
+            User Name <br />
+            @if (ViewBag.Mode == "Edit")
+            {
+                @Html.TextBoxFor(user => user.UserName)
+            }
+            else
+            {
+                @Html.TextBoxFor(user => user.UserName, new { @disabled = "disabled" })
+            }
+            @*Versi code singkat (seperti if else diatas) sebagai berikut*@
+            @*<input id="user" value="@Model.UserName" @(ViewBag.Mode == "Edit" ? "":"disabled")/>*@
+        </p>
+        <p>
+            Full Name <br />
+            <input id="full" name="UserDetail.FullName" value="@Model.UserDetail.FullName" @(ViewBag.Mode == "Edit" ? "" : "disabled") />
+        </p>
+        <p>
+            Phone <br />
+            <input id="full" name="UserDetail.Phone" value="@Model.UserDetail.Phone" @(ViewBag.Mode == "Edit" ? "" : "disabled") />
+        </p>
+        <p>
+            Is Active<br />
+
+            @if (ViewBag.Mode == "Edit")
+            {
+                @Html.CheckBoxFor(user => user.IsActive)
+            }
+            else
+            {
+                @Html.CheckBoxFor(user => user.IsActive, new { @disabled = "disabled" })
+            }
+        </p>
+
+        <p>
+            Is Verified<br />
+            @if (ViewBag.Mode == "Edit")
+            {
+                @Html.CheckBoxFor(user => user.IsVerified)
+            }
+            else
+            {
+                @Html.CheckBoxFor(user => user.IsVerified, new { @disabled = "disabled" })
+            }
+        </p>
+
+        @Html.HiddenFor(user => user.UserID)
+        @Html.HiddenFor(user => user.CreatedBy)
+        @Html.HiddenFor(user => user.CreatedDate)
+        @Html.HiddenFor(user => user.UserDetail.UserID)
+        @Html.HiddenFor(user => user.UserDetail.CreatedBy)
+        @Html.HiddenFor(user => user.UserDetail.CreatedDate)
+
+        if (ViewBag.Mode == "Edit")
         {
-            <p>
-                User ID <br />
-                @Model.UserID
-
-                <br />
-                @Model.UserDetail.FullName
-            </p>
-            <p>
-                User Name <br />
-                @if (ViewBag.Mode == "Edit")
-                {
-                    @Html.TextBoxFor(user => user.UserName)
-                }
-                else
-                {
-                    @Html.TextBoxFor(user => user.UserName, new { @disabled = "disabled" })
-                }
-                @*Versi code singkat (seperti if else diatas) sebagai berikut*@
-                @*<input id="user" value="@Model.UserName" @(ViewBag.Mode == "Edit" ? "":"disabled")/>*@
-            </p>
-            <p>
-                Full Name <br />
-                <input id="full" name="UserDetail.FullName" value="@Model.UserDetail.FullName" @(ViewBag.Mode == "Edit" ? "" : "disabled") />
-            </p>
-            <p>
-                Phone <br />
-                <input id="full" name="UserDetail.Phone" value="@Model.UserDetail.Phone" @(ViewBag.Mode == "Edit" ? "" : "disabled") />
-            </p>
-            <p>
-                Is Active<br />
-
-                @if (ViewBag.Mode == "Edit")
-                {
-                    @Html.CheckBoxFor(user => user.IsActive)
-                }
-                else
-                {
-                    @Html.CheckBoxFor(user => user.IsActive, new { @disabled = "disabled" })
-                }
-            </p>
-
-            <p>
-                Is Verified<br />
-                @if (ViewBag.Mode == "Edit")
-                {
-                    @Html.CheckBoxFor(user => user.IsVerified)
-                }
-                else
-                {
-                    @Html.CheckBoxFor(user => user.IsVerified, new { @disabled = "disabled" })
-                }
-            </p>
-
-            @Html.HiddenFor(user => user.UserID)
-            @Html.HiddenFor(user => user.CreatedBy)
-            @Html.HiddenFor(user => user.CreatedDate)
-            @Html.HiddenFor(user => user.UserDetail.UserID)
-            @Html.HiddenFor(user => user.UserDetail.CreatedBy)
-            @Html.HiddenFor(user => user.UserDetail.CreatedDate)
-
-            <input type="submit" value="Save" @(ViewBag.Mode == "Edit" ? "" : "hidden") />
-            <input type="button" onclick="location.href='/TP/User/AjaxUsers'" value="Back" @(ViewBag.Mode == "Edit" ? "" : "hidden") />
+            <input id="btn-edit" type="button" value="Save" class="loader" />
         }
+        else
+        {
+            <br />
+        }
+
+        <input type="button" onclick="location.href='/TP/User/AjaxUsers'" value="Back" @(ViewBag.Mode == "Edit" ? "" : "hidden") />
+
 
         if (ViewBag.mode == "Edit")
         {
@@ -125,8 +131,8 @@
 
         </script>
 
-        
-        <p> 
+
+        <p>
             User Name <br />
             @Html.TextBoxFor(user => user.UserName)
         </p>
@@ -148,7 +154,7 @@
         </p>
         <input id="btn-insert" type="button" value="Save" class="loader" />
         <button type="button" onclick="location.href = '/TP/User/AjaxUsers';">Back</button>
-       
+
     }
 </div>
 
