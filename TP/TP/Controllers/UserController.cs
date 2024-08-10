@@ -129,7 +129,7 @@ namespace TP.Controllers
                 service.Save();
             }
 
-            return Json(new { Status = "error", Message = user.UserName + " " + user.UserDetail.Phone });
+            return Json(new { Status = "error", Message = "" });
         }
 
 
@@ -141,7 +141,7 @@ namespace TP.Controllers
             service.DeleteUser(user);
             service.Save();
 
-            return RedirectToAction("Users");
+            return RedirectToAction("AjaxUsers");
         }
 
         public ActionResult AjaxProducts()

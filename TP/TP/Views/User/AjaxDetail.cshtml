@@ -13,12 +13,12 @@
 <div>
     @if (Model != null) // Ini Edit dan View
     {
+        <script type="text/javascript">
+        var url = '@Url.Action("AjaxDetailSave", "User")'
+        </script>
         <p>
             User ID <br />
             @Model.UserID
-
-            <br />
-            @Model.UserDetail.FullName
         </p>
         <p>
             User Name <br />
@@ -35,11 +35,11 @@
         </p>
         <p>
             Full Name <br />
-            <input id="full" name="UserDetail.FullName" value="@Model.UserDetail.FullName" @(ViewBag.Mode == "Edit" ? "" : "disabled") />
+            <input id="UserDetail_FullName" name="UserDetail.FullName" value="@Model.UserDetail.FullName" @(ViewBag.Mode == "Edit" ? "" : "disabled") />
         </p>
         <p>
             Phone <br />
-            <input id="full" name="UserDetail.Phone" value="@Model.UserDetail.Phone" @(ViewBag.Mode == "Edit" ? "" : "disabled") />
+            <input id="UserDetail_Phone" name="UserDetail.Phone" value="@Model.UserDetail.Phone" @(ViewBag.Mode == "Edit" ? "" : "disabled") />
         </p>
         <p>
             Is Active<br />

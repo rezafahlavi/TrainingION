@@ -20,8 +20,8 @@ function clickButton() {
             FullName: $("#UserDetail_FullName").val(),
             Phone: $("#UserDetail_Phone").val()
         },
-        IsActived: $("#IsActive").is("checked"),
-        IsVerified: $("#IsVerified").is("checked")
+        IsActive: $("#IsActive").is(":checked"),
+        IsVerified: $("#IsVerified").is(":checked")
     };
 
     $('.loader:first').trigger('loadAjax', [url, data]);
@@ -51,8 +51,8 @@ function clickButtonEdit() {
             CreatedBy: $("#UserDetail_CreatedBy").val(),
             CreatedDate: $("#UserDetail_CreatedDate").val()
         },
-        IsActived: $("#IsActive").is("checked"),
-        IsVerified: $("#IsVerified").is("checked"),
+        IsActive: $("#IsActive").is(":checked"),
+        IsVerified: $("#IsVerified").is(":checked"),
         CreatedBy: $("#CreatedBy").val(),
         CreatedDate: $("#CreatedDate").val()
     };
