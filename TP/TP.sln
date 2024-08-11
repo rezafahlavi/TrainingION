@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainingDomainModel", "..\T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessService", "Business Service\BusinessService.csproj", "{6E67487D-E45E-4E9E-B239-5A8B707EA5E5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPAPI", "..\TPAPI\TPAPI.csproj", "{D3340C88-65D1-4FA6-B5BE-B3D783735ACE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{6E67487D-E45E-4E9E-B239-5A8B707EA5E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E67487D-E45E-4E9E-B239-5A8B707EA5E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E67487D-E45E-4E9E-B239-5A8B707EA5E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3340C88-65D1-4FA6-B5BE-B3D783735ACE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3340C88-65D1-4FA6-B5BE-B3D783735ACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3340C88-65D1-4FA6-B5BE-B3D783735ACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3340C88-65D1-4FA6-B5BE-B3D783735ACE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
