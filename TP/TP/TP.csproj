@@ -139,6 +139,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\CombinedModels.cs" />
+    <Compile Include="Models\LoginUser.cs" />
     <Compile Include="Models\Order.cs" />
     <Compile Include="Models\Supplier.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -210,6 +211,7 @@
     <Content Include="Views\User\AjaxInsert.cshtml" />
     <Content Include="Views\User\AjaxUsers.cshtml" />
     <Content Include="Views\User\AjaxDetail.cshtml" />
+    <Content Include="Views\User\Login.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

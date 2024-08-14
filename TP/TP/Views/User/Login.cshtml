@@ -1,0 +1,19 @@
+﻿@using TrainingDomainModel;
+
+@model TP.Models.LoginUser
+
+@{
+    ViewBag.Title = "Login";
+}
+
+@using (Html.BeginForm("Login", "User", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form", autocmpleted = "off" }))
+{
+    @Html.TextBoxFor(x => x.UserName)
+    <br />
+    @Html.TextBoxFor(x => x.Password)
+    <br />
+    <input type="submit" value="Login" />
+}
+
+<h2>Login</h2>
+

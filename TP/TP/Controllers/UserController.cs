@@ -157,13 +157,26 @@ namespace TP.Controllers
 
 
 
+        // code Training day 4
+
+        public ActionResult Login()
+        { 
+            LoginUser user = new LoginUser();
+
+            return View(); 
+        }
+        [HttpPost]
+        public ActionResult Login(LoginUser user)
+        {
+            var isValid = this.ModelState.IsValid;
+
+            return View(user);
+        }
 
 
+        // code Training day 3
 
-
-            // code Training day 3
-
-            public ActionResult AjaxInsert()
+        public ActionResult AjaxInsert()
         {
             return View();
         }
