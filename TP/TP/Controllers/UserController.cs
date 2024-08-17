@@ -120,10 +120,20 @@ namespace TP.Controllers
             UserService service = new UserService();
             if (user.UserID == 0)
             {
+                //var isValid = this.ModelState.IsValid;
+
+                //var exsistingUser = service.GetBy(x => x.UserName == user.UserName).FirstOrDefault();
+
+                //if (exsistingUser != null)
+                //{
+                //    this.ModelState.AddModelError("UserName", "User already exist");
+                //}
                 service.InsertUser(user);
                 service.Save();
+                
             }
-            else {
+            else 
+            {
                 user.UserDetail.UserID = user.UserID;
                 service.UpdateUser(user);
                 service.Save();

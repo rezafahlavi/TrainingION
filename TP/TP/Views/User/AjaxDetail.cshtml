@@ -140,7 +140,8 @@
             User Name <br />
             @Html.TextBoxFor(user => user.UserName)
             <br />
-            <span id="validation-msg"  style="color:red"></span>
+            @Html.ValidationMessageFor(user => user.UserName)
+            <span id="validation-msg" style="color:red"></span>
         </p>
         <p>
             Full Name<br />
