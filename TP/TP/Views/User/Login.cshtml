@@ -10,8 +10,14 @@
 {
     @Html.TextBoxFor(x => x.UserName)
     <br />
+    @Html.ValidationMessageFor(x => x.UserName)
+    <br />
+
     @Html.TextBoxFor(x => x.Password)
     <br />
+    @Html.ValidationMessageFor(x => x.Password)
+    <br />
+
     <input type="submit" value="Login" />
 }
 

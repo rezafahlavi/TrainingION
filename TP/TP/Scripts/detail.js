@@ -1,14 +1,28 @@
 ﻿$(document).ready(function () {
     var button = $("#btn-insert");
     button.click(function () {
+        if (isValid())
         clickButton();
     });
 
     var button = $("#btn-edit");
     button.click(function () {
+        if (isValid())
         clickButtonEdit();
     });
 });
+
+function isValid() {
+    var isValid = true;
+
+    if ($("#UserName").val() == "" && $("#UserDetail_Phone").val() == "") {
+        isValid = false;
+        $("#validation-msg").html("UserName Tidak Boleh Kosong");
+        $("#validation-msg-ph").html("Phone Tidak Boleh Kosong");
+    }
+
+    return isValid
+}
 
 function clickButton() {
     $('.loader:first').off('ajaxSuccess');

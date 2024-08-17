@@ -1,9 +1,25 @@
 ﻿$(document).ready(function () {
     var button = $("#btn-insert");
     button.click(function () {
+
+        if (isValid())
         clickButton();
     });
 });
+
+function isValid() {
+    var isValid = true;
+
+    if ($("#tb-name").val() == "") {
+        isValid = false;
+        $("[data-valmsg-for] = 'UserName'").html("user perlu diisi");
+    }
+        
+
+    return isValid
+}
+    
+
 
 function clickButton() {
     $('.loader:first').off('ajaxSuccess');

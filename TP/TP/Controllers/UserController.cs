@@ -84,7 +84,7 @@ namespace TP.Controllers
         }
 
 
-        // code ToDo day 3
+        // code ToDo day 3 & 4
 
         public ActionResult AjaxUsers()
         {
@@ -169,6 +169,14 @@ namespace TP.Controllers
         public ActionResult Login(LoginUser user)
         {
             var isValid = this.ModelState.IsValid;
+
+            UserService service = new UserService();
+            var exsistingUser = service.GetBy(x => x.UserName == user.UserName).FirstOrDefault();
+
+            if (exsistingUser != null)
+            {
+                this.ModelState.AddModelError("UserName", "User already exist");
+            }
 
             return View(user);
         }
