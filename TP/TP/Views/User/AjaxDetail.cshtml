@@ -26,7 +26,8 @@
             {
                 @Html.TextBoxFor(user => user.UserName)
                 <br />
-                <span id="validation-msg"  style="color:red"></span>
+                <span id="Username-validation-msg" style="color:red"></span>
+                <span id="validation-msg" style="color:red"></span>
             }
             else
             {
@@ -43,7 +44,7 @@
             Phone <br />
             <input id="UserDetail_Phone" name="UserDetail.Phone" value="@Model.UserDetail.Phone" @(ViewBag.Mode == "Edit" ? "" : "disabled") />
             <br />
-            <span id="validation-msg-ph"  style="color:red"></span>
+            <span id="validation-msg-ph" style="color:red"></span>
         </p>
         <p>
             Is Active<br />

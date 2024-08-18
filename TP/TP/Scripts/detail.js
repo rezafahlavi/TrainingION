@@ -2,14 +2,14 @@
     var button = $("#btn-insert");
     button.click(function () {
         if (isValid())
-        clickButton();
+            clickButton();
 
     });
 
     var button = $("#btn-edit");
     button.click(function () {
         if (isValid())
-        clickButtonEdit();
+            clickButtonEdit();
     });
 });
 
@@ -25,7 +25,7 @@ function isValid() {
         isValid = false;
         $("#validation-msg").html("UserName Harus Lebih Dari 3 Karakter");
     }
-    else if ($("#UserDetail_Phone").val().length <= 10) {
+    else if ($("#UserDetail_Phone").val().length <= 9) {
         isValid = false;
         $("#validation-msg-ph").html("Phone Harus Lebih Dari 9 Karakter");
     }
@@ -37,7 +37,7 @@ function clickButton() {
     $('.loader:first').off('ajaxSuccess');
     $('.loader:first').off('ajaxFail');
 
-    var data = { // nampung input di detail Mode edit tambahin created date dan by hidden
+    var data = {
         UserName: $("#UserName").val(),
         UserDetail: {
             FullName: $("#UserDetail_FullName").val(),
@@ -50,8 +50,8 @@ function clickButton() {
     $('.loader:first').trigger('loadAjax', [url, data]);
 
     $('.loader:first').on('ajaxSuccess', function (event, result) {
-        $("#Username-validation-msg").html(result.Message.Username);
-        /*window.location.href = '/TP/User/AjaxUsers';*/
+        $("#Username-validation-msg").html(result.Message.UserName);
+        //window.location.href = '/TP/User/AjaxUsers';
     });
     $('.loader:first').on('ajaxFail', function (event, data) {
         alert(data);
@@ -64,7 +64,7 @@ function clickButtonEdit() {
     $('.loader:first').off('ajaxSuccess');
     $('.loader:first').off('ajaxFail');
 
-    var data = { 
+    var data = {
         UserID: $("#UserID").val(),
         UserName: $("#UserName").val(),
         UserDetail: {
@@ -83,8 +83,8 @@ function clickButtonEdit() {
     $('.loader:first').trigger('loadAjax', [url, data]);
 
     $('.loader:first').on('ajaxSuccess', function (event, result) {
-        $("#div-result").html(result.Message);
-        window.location.href = '/TP/User/AjaxUsers';
+        $("#Username-validation-msg").html(result.Message.UserName);
+        //window.location.href = '/TP/User/AjaxUsers';
     });
     $('.loader:first').on('ajaxFail', function (event, data) {
         alert(data);

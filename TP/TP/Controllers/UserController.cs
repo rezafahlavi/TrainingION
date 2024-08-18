@@ -27,7 +27,7 @@ namespace TP.Controllers
         }
 
         [HttpGet]
-        public ActionResult Detail(int ? UserID) 
+        public ActionResult Detail(int? UserID)
         {
             UserService service = new UserService();
             User user = service.GetBy(x => x.UserID == UserID).FirstOrDefault();
@@ -80,7 +80,7 @@ namespace TP.Controllers
         {
             UserService service = new UserService();
             IEnumerable<User> user = service.Get().AsEnumerable();
-            return View(); 
+            return View();
         }
 
 
@@ -119,30 +119,36 @@ namespace TP.Controllers
         {
             UserService service = new UserService();
             var errorMessage = new Dictionary<string, string>();
+            var isValid = this.ModelState.IsValid;
+            var exsistingUser = service.GetBy(x => x.UserName == user.UserName).FirstOrDefault();
+
             if (user.UserID == 0)
             {
-                var isValid = this.ModelState.IsValid;
-
-                var exsistingUser = service.GetBy(x => x.UserName == user.UserName).FirstOrDefault();
-
                 if (exsistingUser != null)
                 {
                     errorMessage.Add("UserName", "User already exist");
                 }
-                else 
+                else
                 {
                     service.InsertUser(user);
                     service.Save();
                 }
             }
-            else 
+            else
             {
-                user.UserDetail.UserID = user.UserID;
-                service.UpdateUser(user);
-                service.Save();
+                if (exsistingUser != null)
+                {
+                    errorMessage.Add("UserName", "User already exist");
+                }
+                else
+                {
+                    user.UserDetail.UserID = user.UserID;
+                    service.UpdateUser(user);
+                    service.Save();
+                }
             }
 
-            return Json(new { Status = "error", Message = errorMessage});
+            return Json(new { Status = "error", Message = errorMessage });
         }
 
 
@@ -173,10 +179,10 @@ namespace TP.Controllers
         // code Training day 4
 
         public ActionResult Login()
-        { 
+        {
             LoginUser user = new LoginUser();
 
-            return View(); 
+            return View();
         }
         [HttpPost]
         public ActionResult Login(LoginUser user)
@@ -204,14 +210,14 @@ namespace TP.Controllers
 
         [HttpPost]
         public JsonResult Save(User user)
-         {
-            return Json(new {Status = "error", Message = user.UserName + " " + user.UserDetail.Phone});        
+        {
+            return Json(new { Status = "error", Message = user.UserName + " " + user.UserDetail.Phone });
         }
 
 
 
-            // code Training day 1 dan 2
-            public ActionResult Index()
+        // code Training day 1 dan 2
+        public ActionResult Index()
         {
             User user = new User()
             {
@@ -227,7 +233,7 @@ namespace TP.Controllers
             //service.Get();
             service.Insert(user);
             service.Save();
-            
+
             return View();
             //return View(service.Get());
         }
@@ -257,11 +263,11 @@ namespace TP.Controllers
             UserService service = new UserService();
             User user = service.GetBy(x => x.UserID == 5).FirstOrDefault();
 
-            return View(user); 
+            return View(user);
         }
 
         [HttpPost]
-        public ActionResult UserDetail(User user) 
+        public ActionResult UserDetail(User user)
         {
             UserService service = new UserService();
             service.Update(user);
@@ -282,7 +288,7 @@ namespace TP.Controllers
         public ActionResult List(IEnumerable<User> model)
         {
             UserService service = new UserService();
-            for (int i = 0; i < model.Count(); i++) 
+            for (int i = 0; i < model.Count(); i++)
             {
                 User user = model.ElementAt(i);
                 User firstUser = service.GetByFirst(x => x.UserID == user.UserID);
@@ -290,7 +296,7 @@ namespace TP.Controllers
                 firstUser.UserName = user.UserName;
                 service.Update(firstUser);
             }
-            
+
             service.Save();
 
             return View(model);
