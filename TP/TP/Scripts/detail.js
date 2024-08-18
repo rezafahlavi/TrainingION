@@ -3,6 +3,7 @@
     button.click(function () {
         if (isValid())
         clickButton();
+
     });
 
     var button = $("#btn-edit");
@@ -24,7 +25,7 @@ function isValid() {
         isValid = false;
         $("#validation-msg").html("UserName Harus Lebih Dari 3 Karakter");
     }
-    else if ($("#UserDetail_Phone").length <= 10) {
+    else if ($("#UserDetail_Phone").val().length <= 10) {
         isValid = false;
         $("#validation-msg-ph").html("Phone Harus Lebih Dari 9 Karakter");
     }
@@ -49,8 +50,8 @@ function clickButton() {
     $('.loader:first').trigger('loadAjax', [url, data]);
 
     $('.loader:first').on('ajaxSuccess', function (event, result) {
-        $("#div-result").html(result.Message);
-        window.location.href = '/TP/User/AjaxUsers';
+        $("#Username-validation-msg").html(result.Message.Username);
+        /*window.location.href = '/TP/User/AjaxUsers';*/
     });
     $('.loader:first').on('ajaxFail', function (event, data) {
         alert(data);

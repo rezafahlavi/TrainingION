@@ -118,19 +118,22 @@ namespace TP.Controllers
         public JsonResult AjaxDetailSave(User user)
         {
             UserService service = new UserService();
+            var errorMessage = new Dictionary<string, string>();
             if (user.UserID == 0)
             {
-                //var isValid = this.ModelState.IsValid;
+                var isValid = this.ModelState.IsValid;
 
-                //var exsistingUser = service.GetBy(x => x.UserName == user.UserName).FirstOrDefault();
+                var exsistingUser = service.GetBy(x => x.UserName == user.UserName).FirstOrDefault();
 
-                //if (exsistingUser != null)
-                //{
-                //    this.ModelState.AddModelError("UserName", "User already exist");
-                //}
-                service.InsertUser(user);
-                service.Save();
-                
+                if (exsistingUser != null)
+                {
+                    errorMessage.Add("UserName", "User already exist");
+                }
+                else 
+                {
+                    service.InsertUser(user);
+                    service.Save();
+                }
             }
             else 
             {
@@ -139,7 +142,7 @@ namespace TP.Controllers
                 service.Save();
             }
 
-            return Json(new { Status = "error", Message = "" });
+            return Json(new { Status = "error", Message = errorMessage});
         }
 
 
