@@ -176,7 +176,7 @@ namespace TP.Controllers
 
 
 
-        // code Training day 4
+        // code Training day 4 validasi
 
         public ActionResult Login()
         {
