@@ -5,16 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - My ASP.NET Application</title>
     <style>
-        body 
-        {
+        body {
             background-color: white;
         }
-        .dark-mode 
-        {
+
+        .dark-mode {
             background-color: black;
             color: white;
         }
-
     </style>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
@@ -22,7 +20,14 @@
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
-    
+
+    <script>
+        function theme() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+    </script>
+
 </head>
 <body>
     <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark">
@@ -40,13 +45,7 @@
             </div>
             <button onclick="theme()">Dark Mode / Light Mode</button>
 
-            <script>
-                function theme()
-                {
-                    var element = document.body;
-                    element.classList.toggle("dark-mode");
-                }
-            </script>
+
 
         </div>
     </nav>

@@ -202,7 +202,6 @@ namespace TP.Controllers
 
 
         // code Training day 3
-
         public ActionResult AjaxInsert()
         {
             return View();
@@ -301,8 +300,5 @@ namespace TP.Controllers
 
             return View(model);
         }
-
-
-
     }
 }
